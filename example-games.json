@@ -1,0 +1,84 @@
+// git add .
+// git commit -m "ready for GitHub Pages deploy"
+// git push
+
+// npm run deploy
+
+
+
+{
+  "_instructions": {
+    "general": "Fyll i egna spel här. Behåll struktur och undvik att ta bort nycklar. Bilder läggs i /skattjakt (ca 800x800 JPG/WEBP), /escape (ca 800x800 JPG/WEBP) och /pairs (ca 200x200 SVG/PNG). Filnamn utan mellanslag och å/ä/ö.",
+    "images": {
+      "skattjakt": "Rekommenderad storlek ~800x800 px (JPG eller WEBP).",
+      "escape": "Rekommenderad storlek ~800x800 px (JPG eller WEBP).",
+      "pairs": "Ikoner ~200x200 px (SVG föredras, annars PNG/JPG).",
+      "naming": "Använd små bokstäver, bindestreck eller understreck. Ex: kompass.jpg, havs-karta.webp",
+      "paths": "Referera alltid med ledande / t.ex. /skattjakt/kompass.jpg, /escape/kajak.jpg, /pairs/sun.svg"
+    },
+    "types": {
+      "number": "Svar är siffror (ex: '12').",
+      "letters": "Svar är bokstäver (ex: 'KATT').",
+      "pair": "Använd 'pairs' + 'answer' listor med ord & bilder.",
+      "colors": "Använd allowedColors + answerSequence (alla i lowercase).",
+      "symbols": "Använd allowedSymbols + answerSequence (värden circle|square|star|heart|triangle)."
+    },
+    "tips": [
+      "Id måste vara heltal och unikt inom varje lista.",
+      "answerSequence ordning är viktig.",
+      "För colors/symbols: max 6 i answerSequence rekommenderas för bästa utseende.",
+      "För letters: använd stora bokstäver i answer.",
+      "Undvik mellanslag i filnamn.",
+      "Du kan lägga till flera spel - lägg dem i respektive array.",
+      "Ta inte bort instruktionerna om du är osäker."
+    ]
+  },
+  "skattjakter": [
+    {
+      "id": 1,
+      "name": "MIN SKATTJAKT",
+      "questions": [
+        {
+          "id": 1,
+          "type": "number",
+          "img": "/skattjakt/exempel1.jpg",
+          "prompt": "Hur många ...?",
+          "answer": "5"
+        },
+        {
+          "id": 2,
+          "type": "letters",
+          "img": "/skattjakt/exempel2.jpg",
+          "prompt": "Skriv ordet ...",
+          "answer": "ORD"
+        },
+        {
+          "id": 3,
+          "type": "pair",
+          "img": "/skattjakt/exempel3.jpg",
+          "prompt": "Para ihop bild och ord.",
+          "pairs": [
+            { "word": "SOL", "img": "/pairs/sun.svg" },
+            { "word": "TRAD", "img": "/pairs/tree.svg" }
+          ],
+          "answer": [
+            { "word": "SOL", "img": "/pairs/sun.svg" },
+            { "word": "TRAD", "img": "/pairs/tree.svg" }
+          ]
+        }
+      ]
+    }
+  ],
+  "escapeGames": [
+    {
+      "id": 1,
+      "name": "MITT ESCAPE GAME",
+      "rooms": [
+        { "id": 1, "name": "Start-rummet", "img": "/escape/exempel1.jpg", "type": "number", "answer": "7" },
+        { "id": 2, "name": "Bokstavslås", "img": "/escape/exempel2.jpg", "type": "letters", "answer": "KOD" },
+        { "id": 3, "name": "Färgsekvens", "img": "/escape/exempel3.jpg", "type": "colors", "allowedColors": ["yellow", "green", "blue", "red", "pink", "purple"], "answerSequence": ["yellow", "green", "blue", "red", "pink", "purple"] },
+        { "id": 4, "name": "Symbolsekvens", "img": "/escape/exempel4.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "star", "heart", "triangle"], "answerSequence": ["circle", "square", "star", "heart", "triangle"] }
+      ]
+    }
+  ]
+}
