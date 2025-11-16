@@ -5,6 +5,17 @@ import EscapeRoom from "./components/EscapeRoom";
 import Skattjakt from "./components/Skattjakt";
 import { escapeGames, skattjakter } from "./data/gamesData";
 
+// Fisher-Yates shuffle (non-destructive - returns a new array)
+const shuffleArray = (arr) => {
+  if (!Array.isArray(arr)) return arr;
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+};
+
 function App() {
   const [page, setPage] = useState("home");
   const [selectedEscapeGame, setSelectedEscapeGame] = useState(null);
@@ -54,18 +65,18 @@ function App() {
         />
       )}
       {page === "skattjakt" && (
-        <Skattjakt
-          questions={
-            skattjakter.find(jakt => jakt.id === selectedSkattjakt)?.questions || []
-          }
-          skattjaktName={
-            skattjakter.find(jakt => jakt.id === selectedSkattjakt)?.name || ""
-          }
-          introImg={
-            skattjakter.find(jakt => jakt.id === selectedSkattjakt)?.introImg || ""
-          }
-          goHome={() => setPage("home")}
-        />
+        (() => {
+          const jakt = skattjakter.find(jakt => jakt.id === selectedSkattjakt) || {};
+          const questions = jakt.shuffleQuestions ? shuffleArray(jakt.questions || []) : (jakt.questions || []);
+          return (
+            <Skattjakt
+              questions={questions}
+              skattjaktName={jakt.name || ""}
+              introImg={jakt.introImg || ""}
+              goHome={() => setPage("home")}
+            />
+          );
+        })()
       )}
     </div>
   );
