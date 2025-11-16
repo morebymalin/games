@@ -107,7 +107,7 @@ function EscapeRoom({ escapeGames, escapeGameId, roomId, goBack, markRoomSolved,
         {room.type === "number" && (
           <input
             type="number"
-            placeholder="Skriv en siffra"
+            placeholder="Skriv siffror"
             value={answer}
             onChange={e => setAnswer(e.target.value)}
             className="game-input"
