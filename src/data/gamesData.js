@@ -117,7 +117,34 @@ export const skattjakter = [
         hint: "Ta första bokstaven från det du ser."
       }
     ]
-  }
+  },
+
+   {
+    id: 10,
+    name: "Test skattjakt",
+    introImg: "/skattjakt/test/testintro.jpg",
+    questions: [
+      {
+        id: 1,
+        type: "letters",
+        img: "/skattjakt/test/test1.jpg",
+        prompt: "Test promt1",
+        answer: "A",
+        hint: "Test hnt 1"
+      },
+      {
+        id: 2,
+        type: "number",
+        img: "/skattjakt/test/test2.jpg",
+        prompt: "Test promt2",
+        answer: "1",
+        hint: "Test hnint 2"
+      },
+      
+    ]
+  },
+  
+
 ];
 
 
