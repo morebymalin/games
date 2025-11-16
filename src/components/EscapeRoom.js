@@ -86,6 +86,52 @@ function EscapeRoom({ escapeGames, escapeGameId, roomId, goBack, markRoomSolved,
     }
   };
 
+  const handleCheck = () => {
+    if (room.type === 'colors') {
+      if (room.answerSequence) {
+        const correctSeq = room.answerSequence.every((c, i) => colorAnswers[i] === c) && colorAnswers.length === room.answerSequence.length;
+        if (correctSeq) {
+          setResult('Rätt!');
+          markRoomSolved?.(escapeGameId, roomId);
+        } else {
+          setResult('Fel, försök igen!');
+        }
+      } else if (room.answer) {
+        const singleColor = colorAnswers[0];
+        if (singleColor === String(room.answer).trim().toLowerCase()) {
+          setResult('Rätt!');
+          markRoomSolved?.(escapeGameId, roomId);
+        } else {
+          setResult('Fel, försök igen!');
+        }
+      } else {
+        setResult('Fel, försök igen!');
+      }
+    } else if (room.type === 'symbols') {
+      if (room.answerSequence) {
+        const correctSymbols = symbolAnswers.length === room.answerSequence.length && room.answerSequence.every((s, i) => symbolAnswers[i] === s);
+        if (correctSymbols) {
+          setResult('Rätt!');
+          markRoomSolved?.(escapeGameId, roomId);
+        } else {
+          setResult('Fel, försök igen!');
+        }
+      } else if (room.answer) {
+        const selectedLabel = SYMBOLS.find(s => s.value === symbolAnswers[0])?.label;
+        if (selectedLabel && selectedLabel.trim() === String(room.answer).trim()) {
+          setResult('Rätt!');
+          markRoomSolved?.(escapeGameId, roomId);
+        } else {
+          setResult('Fel, försök igen!');
+        }
+      } else {
+        setResult('Fel, försök igen!');
+      }
+    } else {
+      checkAnswer();
+    }
+  };
+
   const handleSymbolChange = (idx, value) => {
     const updated = [...symbolAnswers];
     updated[idx] = value;
@@ -110,6 +156,7 @@ function EscapeRoom({ escapeGames, escapeGameId, roomId, goBack, markRoomSolved,
             placeholder="Skriv siffror"
             value={answer}
             onChange={e => setAnswer(e.target.value)}
+            onKeyDown={e => { if (e.key === 'Enter') handleCheck(); }}
             className="game-input"
           />
         )}
@@ -119,6 +166,7 @@ function EscapeRoom({ escapeGames, escapeGameId, roomId, goBack, markRoomSolved,
             placeholder="Skriv bokstäver"
             value={answer}
             onChange={e => setAnswer(e.target.value)}
+            onKeyDown={e => { if (e.key === 'Enter') handleCheck(); }}
             className="game-input"
           />
         )}
@@ -136,56 +184,7 @@ function EscapeRoom({ escapeGames, escapeGameId, roomId, goBack, markRoomSolved,
             allowedColors={room.allowedColors}
           />
         )}
-        <button
-          className="game-check-btn"
-          onClick={() => {
-            if (room.type === 'colors') {
-              if (room.answerSequence) {
-                const correctSeq = room.answerSequence.every((c, i) => colorAnswers[i] === c) && colorAnswers.length === room.answerSequence.length;
-                if (correctSeq) {
-                  setResult('Rätt!');
-                  markRoomSolved?.(escapeGameId, roomId);
-                } else {
-                  setResult('Fel, försök igen!');
-                }
-              } else if (room.answer) {
-                const singleColor = colorAnswers[0];
-                if (singleColor === String(room.answer).trim().toLowerCase()) {
-                  setResult('Rätt!');
-                  markRoomSolved?.(escapeGameId, roomId);
-                } else {
-                  setResult('Fel, försök igen!');
-                }
-              } else {
-                setResult('Fel, försök igen!');
-              }
-            } else if (room.type === 'symbols') {
-              if (room.answerSequence) {
-                // Jämför sekvens av symbol-värden
-                const correctSymbols = symbolAnswers.length === room.answerSequence.length && room.answerSequence.every((s, i) => symbolAnswers[i] === s);
-                if (correctSymbols) {
-                  setResult('Rätt!');
-                  markRoomSolved?.(escapeGameId, roomId);
-                } else {
-                  setResult('Fel, försök igen!');
-                }
-              } else if (room.answer) {
-                // Enkel symbol: jämför vald symbols label mot svarstecknet
-                const selectedLabel = SYMBOLS.find(s => s.value === symbolAnswers[0])?.label;
-                if (selectedLabel && selectedLabel.trim() === String(room.answer).trim()) {
-                  setResult('Rätt!');
-                  markRoomSolved?.(escapeGameId, roomId);
-                } else {
-                  setResult('Fel, försök igen!');
-                }
-              } else {
-                setResult('Fel, försök igen!');
-              }
-            } else {
-              checkAnswer();
-            }
-          }}
-        >Kolla svar</button>
+        <button className="game-check-btn" onClick={handleCheck}>Kolla svar</button>
         {result && <div className="game-result">{result}</div>}
         {/* Show instruction from gamesData when solved (no in-app editing) */}
         {result === 'Rätt!' && room.instruction && (

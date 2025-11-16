@@ -238,6 +238,7 @@ function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg }) {
               placeholder={current.type === "number" ? "Skriv en siffra" : "Skriv svaret"}
               value={answer}
               onChange={e => setAnswer(e.target.value)}
+              onKeyDown={e => { if (e.key === 'Enter') handleCheck(); }}
               className="game-input"
             />
             {!confirmedCorrect && (
