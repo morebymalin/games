@@ -299,6 +299,19 @@ export const escapeGames = [
     ]
   },
 
+  {
+    id: 11,
+    name: "Test escpae",
+    win: "Test win",
+    rooms: [
+      { id: 1, name: "Test namn 1", img: "/escape/test/test1.jpg", type: "letters", answer: "A", instruction: "Bra jobbat!TEEEST" },
+      { id: 2, name: "Test namn 1", img: "/escape/test/test2.jpg", type: "number", answer: "1" },
+
+    ]
+  },
+
+  
+
 
 ];
 
