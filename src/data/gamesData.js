@@ -142,15 +142,15 @@ export const escapeGames = [
     category: "advent",
     win: "Härligt! Nu kan vi börja julpynta!",
     rooms: [
-      { id: 1, name: "Dörren till vinden", img: "/escape/vindsdorren1.jpg", type: "number", answer: "43785", instruction: "Bra jobbat! Ta ledtråd 2" },
-      { id: 2, name: "Byrån", img: "/escape/byran.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "triangle", "rectangle"], answerSequence: ["heart", "square", "triangle", "circle"], instruction: "Bra jobbat! Ta ledtråd 5" },
-      { id: 3, name: "Bruna lådan", img: "/escape/brunaladan.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "flower", "triangle"], answerSequence: ["triangle", "square", "star", "circle", "heart"], instruction: "Bra jobbat! Ta ledtråd 9" },
-      { id: 4, name: "Dörren ut från vinden", img: "/escape/vindsdorren2.jpg", type: "colors", allowedColors: ["brown", "black", "orange", "red", "yellow", "blue"], answerSequence: ["blue", "brown", "orange", "red", "black"] },
-      { id: 5, name: "Julkartong", img: "/escape/julkartong1.jpg", type: "letters", answer: "EADB", instruction: "Bra jobbat! Ta ledtråd 3" },
-      { id: 6, name: "Kistan", img: "/escape/kistan.jpg", type: "colors", allowedColors: ["green", "brown", "orange", "red", "yellow", "blue"], answerSequence: ["green", "blue", "yellow", "brown"], instruction: "Bra jobbat! Ta ledtråd 4" },
-      { id: 7, name: "Julkartong", img: "/escape/julkartong2.jpg", type: "letters", answer: "PMHDV", instruction: "Bra jobbat! Ta ledtråd 7" },
-      { id: 8, name: "Jullådor", img: "/escape/jullador.jpg", type: "number", answer: "2154", instruction: "Bra jobbat! Ta ledtråd 8" },
-      { id: 9, name: "Gammalt skåp", img: "/escape/gammaltskap.jpg", type: "colors", allowedColors: ["black", "grey", "white", "brown", "red"], answerSequence: ["white", "black", "red", "grey", "white", "brown", "red"], instruction: "Bra jobbat! Ta ledtråd 6" }
+      { id: 1, name: "Dörren till vinden", img: "/escape/adventhosjuliusson/vindsdorren1.jpg", type: "number", answer: "43785", instruction: "Bra jobbat! Ta ledtråd 2" },
+      { id: 2, name: "Byrån", img: "/escape/adventhosjuliusson/byran.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "triangle", "rectangle"], answerSequence: ["heart", "square", "triangle", "circle"], instruction: "Bra jobbat! Ta ledtråd 5" },
+      { id: 3, name: "Bruna lådan", img: "/escape/adventhosjuliusson/brunaladan.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "flower", "triangle"], answerSequence: ["triangle", "square", "star", "circle", "heart"], instruction: "Bra jobbat! Ta ledtråd 9" },
+      { id: 4, name: "Dörren ut från vinden", img: "/escape/adventhosjuliusson/vindsdorren2.jpg", type: "colors", allowedColors: ["brown", "black", "orange", "red", "yellow", "blue"], answerSequence: ["blue", "brown", "orange", "red", "black"] },
+      { id: 5, name: "Julkartong", img: "/escape/adventhosjuliusson/julkartong1.jpg", type: "letters", answer: "EADB", instruction: "Bra jobbat! Ta ledtråd 3" },
+      { id: 6, name: "Kistan", img: "/escape/adventhosjuliusson/kistan.jpg", type: "colors", allowedColors: ["green", "brown", "orange", "red", "yellow", "blue"], answerSequence: ["green", "blue", "yellow", "brown"], instruction: "Bra jobbat! Ta ledtråd 4" },
+      { id: 7, name: "Julkartong", img: "/escape/adventhosjuliusson/julkartong2.jpg", type: "letters", answer: "PMHDV", instruction: "Bra jobbat! Ta ledtråd 7" },
+      { id: 8, name: "Jullådor", img: "/escape/adventhosjuliusson/jullador.jpg", type: "number", answer: "2154", instruction: "Bra jobbat! Ta ledtråd 8" },
+      { id: 9, name: "Gammalt skåp", img: "/escape/adventhosjuliusson/gammaltskap.jpg", type: "colors", allowedColors: ["black", "grey", "white", "brown", "red"], answerSequence: ["white", "black", "red", "grey", "white", "brown", "red"], instruction: "Bra jobbat! Ta ledtråd 6" }
     ]
   },
 
