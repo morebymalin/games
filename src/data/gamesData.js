@@ -254,7 +254,7 @@ export const escapeGames = [
     rooms: [
       { id: 1, name: "Havet", img: "/escape/havet.jpg", type: "number", answer: "41014", instruction: "Bra jobbat! Ta ledtråd 6" },
       { id: 2, name: "Spa", img: "/escape/spa.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "triangle", "rectangle"], answerSequence: ["circle", "star", "triangle", "heart", "rectangle"], instruction: "Bra jobbat! Ta ledtråd 7" },
-      { id: 3, name: "Restaurangen", img: "/escape/restaurangen.jpg", type: "letters", answer: "EFTERLYSNING", instruction: "Bra jobbat! Ta ledtråd 9" },
+      { id: 3, name: "Restaurangen", img: "/escape/restaurangen1.jpg", type: "letters", answer: "EFTERLYSNING", instruction: "Bra jobbat! Ta ledtråd 9" },
       { id: 4, name: "Baren", img: "/escape/baren.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "cloud", "rectangle"], answerSequence: ["heart", "square", "star", "circle", "cloud"], instruction: "Bra jobbat! Ta ledtråd 4" },
       { id: 5, name: "Källaren", img: "/escape/kallaren.jpg", type: "number", answer: "98518" },
       { id: 6, name: "Hotellrummet", img: "/escape/hotellrummet.jpg", type: "colors", allowedColors: ["yellow", "green", "purple", "red", "pink", "blue"], answerSequence: ["yellow", "blue", "red"], instruction: "Bra jobbat! Ta ledtråd 2" },
