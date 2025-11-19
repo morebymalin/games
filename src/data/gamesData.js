@@ -289,16 +289,16 @@ export const escapeGames = [
     name: "LÄGENHETEN - kommer snart!",
     win: "Ni lyckades fly från lägenheten!",
     rooms: [
-      { id: 1, name: "Toalettdörren", img: "/escape/toalettdorren.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "triangle", "rectangle"], answerSequence: ["heart", "circle", "rectangle", "triangle"], instruction: "Bra jobbat2!" },
-      { id: 2, name: "Soffan", img: "/escape/soffan.jpg", type: "number", answer: "104271", instruction: "Bra jobbat!" },
-      { id: 3, name: "Sängen", img: "/escape/sangen.jpg", type: "letters", answer: "GFGH", instruction: "Bra jobbat!" },
-      { id: 4, name: "Köket", img: "/escape/koket.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "triangle", "cloud"], answerSequence: ["circle", "star", "heart", "cloud", "heart"], instruction: "Bra jobbat!" },
-      { id: 5, name: "Bokhyllan", img: "/escape/bokhyllan.jpg", type: "symbols", allowedSymbols: ["circle", "square", "cloud", "heart", "triangle"], answerSequence: ["heart", "circle", "square", "cloud"], instruction: "Bra jobbat!" },
-      { id: 6, name: "Garderoben", img: "/escape/garderoben.jpg", type: "number", answer: "90090", instruction: "Bra jobbat!" },
-      { id: 7, name: "TV:n", img: "/escape/tvn.jpg", type: "colors", allowedColors: ["yellow", "green", "orange", "red", "pink", "purple"], answerSequence: ["pink", "green", "orange", "purple"] },
-      { id: 8, name: "Skrivbordet", img: "/escape/skrivbordet.jpg", type: "number", answer: "8431" },
-      { id: 9, name: "Fönstret", img: "/escape/fonstret.jpg", type: "colors", allowedColors: ["yellow", "brown", "blue", "red", "pink", "purple"], answerSequence: ["blue", "yellow", "red", "pink", "brown"] },
-      { id: 10, name: "Halldörren", img: "/escape/halldorren.jpg", type: "letters", answer: "DENOFI" }
+      { id: 1, name: "Toalettdörren", img: "/escape/lagenheten/toalettdorren.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "triangle", "rectangle"], answerSequence: ["heart", "circle", "rectangle", "triangle"], instruction: "Bra jobbat2!" },
+      { id: 2, name: "Soffan", img: "/escape/lagenheten/soffan.jpg", type: "number", answer: "104271", instruction: "Bra jobbat!" },
+      { id: 3, name: "Sängen", img: "/escape/lagenheten/sangen.jpg", type: "letters", answer: "GFGH", instruction: "Bra jobbat!" },
+      { id: 4, name: "Köket", img: "/escape/lagenheten/koket.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "triangle", "cloud"], answerSequence: ["circle", "star", "heart", "cloud", "heart"], instruction: "Bra jobbat!" },
+      { id: 5, name: "Bokhyllan", img: "/escape/lagenheten/bokhyllan.jpg", type: "symbols", allowedSymbols: ["circle", "square", "cloud", "heart", "triangle"], answerSequence: ["heart", "circle", "square", "cloud"], instruction: "Bra jobbat!" },
+      { id: 6, name: "Garderoben", img: "/escape/lagenheten/garderoben.jpg", type: "number", answer: "90090", instruction: "Bra jobbat!" },
+      { id: 7, name: "TV:n", img: "/escape/lagenheten/tvn.jpg", type: "colors", allowedColors: ["yellow", "green", "orange", "red", "pink", "purple"], answerSequence: ["pink", "green", "orange", "purple"] },
+      { id: 8, name: "Skrivbordet", img: "/escape/lagenheten/skrivbordet.jpg", type: "number", answer: "8431" },
+      { id: 9, name: "Fönstret", img: "/escape/lagenheten/fonstret.jpg", type: "colors", allowedColors: ["yellow", "brown", "blue", "red", "pink", "purple"], answerSequence: ["blue", "yellow", "red", "pink", "brown"] },
+      { id: 10, name: "Halldörren", img: "/escape/lagenheten/halldorren.jpg", type: "letters", answer: "DENOFI" }
     ]
   },
 
