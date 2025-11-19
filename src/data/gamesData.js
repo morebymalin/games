@@ -78,7 +78,7 @@ export const skattjakter = [
         img: "/skattjakt/spokfesten/vitaspoket2.jpg",
         prompt: "Hjälp det vita spöket med gåtan och ange koden.",
         answer: "GSUT",
-        hint: "Bokstäverna finns gömda – leta noga i detaljerna."
+        hint: "Börja med den största bollens bokstav."
       },
       {
         id: 2,
@@ -86,7 +86,7 @@ export const skattjakter = [
         img: "/skattjakt/spokfesten/rodaspoket2.jpg",
         prompt: "Hjälp det röda spöket med gåtan och ange koden.",
         answer: "10010",
-        hint: "Ett tal som ser ut som det kunde vara skrivet i binär form."
+        hint: "Vilka pumpor lyser?"
       },
       {
         id: 3,
@@ -102,7 +102,7 @@ export const skattjakter = [
         img: "/skattjakt/spokfesten/gronaspoket2.jpg",
         prompt: "Hjälp det gröna spöket med gåtan och ange koden.",
         answer: "HEXAGON",
-        hint: "En form med sex sidor."
+        hint: "En form med sex sidor - början av ordet låter likadant som HÄXA men stavas annorlunda."
       },
       {
         id: 5,
@@ -110,7 +110,7 @@ export const skattjakter = [
         img: "/skattjakt/spokfesten/rosaspoket2.jpg",
         prompt: "Hjälp det rosa spöket med gåtan och ange koden.",
         answer: "35412",
-        hint: "Siffrorna följer en ordning – jämför olika grupper."
+        hint: "Siffrorna följer en ordning – titta var rosetterna sitter."
       },
       {
         id: 6,
@@ -118,7 +118,7 @@ export const skattjakter = [
         img: "/skattjakt/spokfesten/blaaspoket2.jpg",
         prompt: "Hjälp det blåa spöket med gåtan och ange koden.",
         answer: "LADW",
-        hint: "Ta första bokstaven från det du ser."
+        hint: "Titta likadant som fladdermössen sover."
       }
     ]
   }
