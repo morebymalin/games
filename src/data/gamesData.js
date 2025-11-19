@@ -66,6 +66,7 @@ export const skattjakter = [
       }
     ]
   },
+  
   {
     id: 6,
     name: "SPÖKFESTEN - ÄLDRE BARN",
@@ -121,7 +122,97 @@ export const skattjakter = [
         hint: "Titta likadant som fladdermössen sover."
       }
     ]
+  },
+
+  {
+    id: 1,
+    name: "NISSEJAKTEN",
+    introImg: "/skattjakt/nissejakten/introbild.jpg",
+    questions: [
+      {
+        id: 1,
+        type: "letters",
+        img: "/skattjakt/nissejakten/tomtensinfo.jpg",
+        prompt: "Läs tomtens tips!",
+        answer: "OK",
+        hint: "Följ tomtens instruktioner."
+      },
+      {
+        id: 2,
+        type: "letters",
+        img: "/skattjakt/nissejakten/nisse1.jpg",
+        prompt: "Hjälp nissen genom labyrinten. Vad blir det hemliga ordet?",
+        answer: "SNÖLYKTA",
+        hint: "Börja vid nissen och hitta vägen till slutet."
+      },
+      {
+        id: 3,
+        type: "letters",
+        img: "/skattjakt/nissejakten/nisse2.jpg",
+        prompt: "Hjälp nissen att hitta och räkna alla saxar.",
+        answer: "TJUGOSJU",
+        hint: "Kom ihåg att använda bokstäver."
+      },
+      {
+        id: 4,
+        type: "letters",
+        img: "/skattjakt/nissejakten/nisse3.jpg",
+        prompt: "Hjälp nissen att lösa rebusen.",
+        answer: "TOMTEVERKSTAD",
+        hint: "Hitta ett ord för varje bild och ta bort bort de bokstäver som står bredvid bilden."
+      },
+      {
+        id: 5,
+        type: "letters",
+        img: "/skattjakt/nissejakten/nisse4.jpg",
+        prompt: "Hjälp nissen att hitta alla färgburkar.",
+        answer: "TOMTEN",
+        hint: "Vilket ord bildar bokstäverna?"
+      },
+      {
+        id: 6,
+        type: "letters",
+        img: "/skattjakt/nissejakten/nisse5.jpg",
+        prompt: "Hjälp nissen att hitta djuren.",
+        answer: "FROGCATDOG",
+        hint: "Vad heter djuren på engelska?"
+      },
+      {
+        id: 7,
+        type: "letters",
+        img: "/skattjakt/nissejakten/nisse6.jpg",
+        prompt: "Hjälp nissen att lösa rebusen.",
+        answer: "JULGRANSPYNT",
+        hint: "Hitta ett ord för varje bild och ta bort bort de bokstäver som står bredvid bilden."
+      },
+      {
+        id: 8,
+        type: "letters",
+        img: "/skattjakt/nissejakten/nisse7.jpg",
+        prompt: "Hjälp nissen att hitta alla tejprullar.",
+        answer: "FJORTON",
+        hint: "Kom ihåg att använda bokstäver."
+      },
+      {
+        id: 9,
+        type: "letters",
+        img: "/skattjakt/nissejakten/nisse8.jpg",
+        prompt: "Hjälp nissen att hitta något att klättra på.",
+        answer: "JULKLAPP",
+        hint: "Finns det något nära nissen som hon kan klättra på?"
+      },
+      {
+        id: 10,
+        type: "letters",
+        img: "/skattjakt/nissejakten/nisse9.jpg",
+        prompt: "Hjälp nissen att lösa det hemliga meddelandet.",
+        answer: "AEIOUYÅÄÖ",
+        hint: "Byt ut frågetecknen mot vokaler."
+      }
+    ]
   }
+
+
 ];
 
 
