@@ -126,7 +126,7 @@ export const skattjakter = [
 
   {
     id: 1,
-    name: "NISSEJAKTEN",
+    name: "NISSEJAKTEN - kommer snart!",
     introImg: "/skattjakt/nissejakten/introbild.jpg",
     questions: [
       {
