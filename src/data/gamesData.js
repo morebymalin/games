@@ -14,12 +14,12 @@ export const skattjakter = [
     id: 5,
     name: "SPÖKFESTEN - YNGRE BARN",
     shuffleQuestions: true,
-    introImg: "/skattjakt/spokfesten1.jpg",
+    introImg: "/skattjakt/spokfesten/spokfesten1.jpg",
     questions: [
       {
         id: 1,
         type: "letters",
-        img: "/skattjakt/vitaspoket.jpg",
+        img: "/skattjakt/spokfesten/vitaspoket.jpg",
         prompt: "Vad har det vita spöket tagit med sig?",
         answer: ["BOLLAR", "BOLL", "BOLLARNA", "BOLAR"],
         hint: "Titta på vad det håller – runda färgglada saker som man kan kasta."
@@ -27,7 +27,7 @@ export const skattjakter = [
       {
         id: 2,
         type: "letters",
-        img: "/skattjakt/rodaspoket.jpg",
+        img: "/skattjakt/spokfesten/rodaspoket.jpg",
         prompt: "Vad har det röda spöket tagit med sig?",
         answer: ["PUMPOR", "PUMPA", "PUMPORNA"],
         hint: "Orangea saker som brukar stå utanför hus i oktober."
@@ -35,7 +35,7 @@ export const skattjakter = [
       {
         id: 3,
         type: "letters",
-        img: "/skattjakt/orangeaspoket.jpg",
+        img: "/skattjakt/spokfesten/orangeaspoket.jpg",
         prompt: "Vad har det orangea spöket tagit med sig?",
         answer: "GODIS",
         hint: "Färgglada bitar som man äter – finns i påsen."
@@ -43,7 +43,7 @@ export const skattjakter = [
       {
         id: 4,
         type: "letters",
-        img: "/skattjakt/gronaspoket.jpg",
+        img: "/skattjakt/spokfesten/gronaspoket.jpg",
         prompt: "Vad har det gröna spöket tagit med sig?",
         answer: ["HÄXHATT", "HATT", "HÄXHATTEN", "HEXHATT"],
         hint: "Sitter på huvudet – tillhör ofta en häxa."
@@ -51,7 +51,7 @@ export const skattjakter = [
       {
         id: 5,
         type: "letters",
-        img: "/skattjakt/rosaspoket.jpg",
+        img: "/skattjakt/spokfesten/rosaspoket.jpg",
         prompt: "Vad har det rosa spöket tagit med sig?",
         answer: ["KVASTAR", "KVAST", "KVASTEN"],
         hint: "Något som kan användas för att flyga (i sagor) eller städa."
@@ -59,7 +59,7 @@ export const skattjakter = [
       {
         id: 6,
         type: "letters",
-        img: "/skattjakt/blaaspoket.jpg",
+        img: "/skattjakt/spokfesten/blaaspoket.jpg",
         prompt: "Vad har det blåa spöket tagit med sig?",
         answer: ["FLADDERMÖSS", "FLADDERMUS"],
         hint: "Små svarta djur som flyger på natten."
@@ -70,12 +70,12 @@ export const skattjakter = [
     id: 6,
     name: "SPÖKFESTEN - ÄLDRE BARN",
     shuffleQuestions: true,
-    introImg: "/skattjakt/spokfesten2.jpg",
+    introImg: "/skattjakt/spokfesten/spokfesten2.jpg",
     questions: [
       {
         id: 1,
         type: "letters",
-        img: "/skattjakt/vitaspoket2.jpg",
+        img: "/skattjakt/spokfesten/vitaspoket2.jpg",
         prompt: "Hjälp det vita spöket med gåtan och ange koden.",
         answer: "GSUT",
         hint: "Bokstäverna finns gömda – leta noga i detaljerna."
@@ -83,7 +83,7 @@ export const skattjakter = [
       {
         id: 2,
         type: "number",
-        img: "/skattjakt/rodaspoket2.jpg",
+        img: "/skattjakt/spokfesten/rodaspoket2.jpg",
         prompt: "Hjälp det röda spöket med gåtan och ange koden.",
         answer: "10010",
         hint: "Ett tal som ser ut som det kunde vara skrivet i binär form."
@@ -91,7 +91,7 @@ export const skattjakter = [
       {
         id: 3,
         type: "number",
-        img: "/skattjakt/orangeaspoket2.jpg",
+        img: "/skattjakt/spokfesten/orangeaspoket2.jpg",
         prompt: "Hjälp det orangea spöket med gåtan och ange koden.",
         answer: "1457",
         hint: "Fyra siffror du kan räkna fram – titta på antal saker."
@@ -99,7 +99,7 @@ export const skattjakter = [
       {
         id: 4,
         type: "letters",
-        img: "/skattjakt/gronaspoket2.jpg",
+        img: "/skattjakt/spokfesten/gronaspoket2.jpg",
         prompt: "Hjälp det gröna spöket med gåtan och ange koden.",
         answer: "HEXAGON",
         hint: "En form med sex sidor."
@@ -107,7 +107,7 @@ export const skattjakter = [
       {
         id: 5,
         type: "number",
-        img: "/skattjakt/rosaspoket2.jpg",
+        img: "/skattjakt/spokfesten/rosaspoket2.jpg",
         prompt: "Hjälp det rosa spöket med gåtan och ange koden.",
         answer: "35412",
         hint: "Siffrorna följer en ordning – jämför olika grupper."
@@ -115,7 +115,7 @@ export const skattjakter = [
       {
         id: 6,
         type: "letters",
-        img: "/skattjakt/blaaspoket2.jpg",
+        img: "/skattjakt/spokfesten/blaaspoket2.jpg",
         prompt: "Hjälp det blåa spöket med gåtan och ange koden.",
         answer: "LADW",
         hint: "Ta första bokstaven från det du ser."
