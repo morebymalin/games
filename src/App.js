@@ -73,6 +73,7 @@ function App() {
               questions={questions}
               skattjaktName={jakt.name || ""}
               introImg={jakt.introImg || ""}
+              finishImg={jakt.finishImg || ""}
               goHome={() => setPage("home")}
             />
           );

@@ -15,6 +15,7 @@ export const skattjakter = [
     name: "SPÖKFESTEN - YNGRE BARN",
     shuffleQuestions: true,
     introImg: "/skattjakt/spokfesten/spokfesten1.jpg",
+    finishImg: "/skattjakt/spokfesten/spokfesten1.jpg",
     questions: [
       {
         id: 1,
@@ -72,6 +73,7 @@ export const skattjakter = [
     name: "SPÖKFESTEN - ÄLDRE BARN",
     shuffleQuestions: true,
     introImg: "/skattjakt/spokfesten/spokfesten2.jpg",
+    finishImg: "/skattjakt/spokfesten/spokfesten1.jpg",
     questions: [
       {
         id: 1,
@@ -128,6 +130,8 @@ export const skattjakter = [
     id: 1,
     name: "NISSEJAKTEN - kommer snart!",
     introImg: "/skattjakt/nissejakten/introbild.jpg",
+    finishImg: "/skattjakt/nissejakten/finish.jpg",
+    
     questions: [
       {
         id: 1,
@@ -210,7 +214,8 @@ export const skattjakter = [
         hint: "Byt ut frågetecknen mot vokaler."
       }
     ]
-  }
+  },
+
 
 
 ];

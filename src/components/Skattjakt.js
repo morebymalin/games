@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Skattjakt.css";
 import "./GameShared.css";
 
-function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg }) {
+function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg, finishImg }) {
 
   // Hooks måste alltid ligga överst!
   const [step, setStep] = useState(-1);
@@ -217,6 +217,14 @@ function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg }) {
           </div>
           <h2 className="finish-heading">Grattis!</h2>
           <p className="finish-sub">Du klarade skattjakten: <strong>{skattjaktName}</strong></p>
+          {finishImg && (
+            <img
+              src={resolveImg(finishImg)}
+              alt={skattjaktName + ' klarad'}
+              className="finish-img"
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+          )}
           <button className="game-check-btn" onClick={goHome}>Till startsidan</button>
         </div>
         <button className="game-back-btn bottom" onClick={handleBackFromFinish}>Tillbaka</button>
@@ -238,7 +246,7 @@ function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg }) {
               placeholder={current.type === "number" ? "Skriv en siffra" : "Skriv svaret"}
               value={answer}
               onChange={e => setAnswer(e.target.value)}
-              onKeyDown={e => { if (e.key === 'Enter') handleCheck(); }}
+              onKeyDown={e => { if (e.key === 'Enter') { confirmedCorrect ? handleNext() : handleCheck(); } }}
               className="game-input"
             />
             {!confirmedCorrect && (
