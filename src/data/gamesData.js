@@ -399,6 +399,18 @@ export const escapeGames = [
   },
 
 
+    {
+    id: 11,
+    name: "Escape the bathroom",
+    win: "Jag lyckades ta mig ut från toaletten, vilken tur!",
+    rooms: [
+      { id: 1, name: "Badkaret", img: "/escape/escapethebathroom/testbadkar.jpg", type: "colors", allowedColors: ["orange", "green", "blue", "red", "pink", "purple"], answerSequence: ["pink", "purple", "orange", "green"], instruction: "Ta ledtråd 3" },
+      { id: 2, name: "Dörren ut", img: "/escape/escapethebathroom/testdorrenut.jpg", type: "number", answer: "56973" },
+      { id: 3, name: "Toaletten", img: "/escape/escapethebathroom/testtoalett.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "triangle", "rectangle"], answerSequence: ["circle", "star", "square"], instruction: "Ta ledtråd 2" },
+    ]
+  },
+
+
 
 
 
