@@ -412,7 +412,7 @@ export const escapeGames = [
 
     {
       "id": 3,
-      "name": "Sveriges historia",
+      "name": "Sveriges historia - kommer snart!",
       "win": "Oj, vilken tidsresa ni har gjort! Men ni lyckades att ta er tillbaka till nutiden, vilken tur!" ,
       "rooms": [
         { "id": 1, "name": "Kyrkan", "img": "/escape/sverigeshistoria/kyrkan.jpg", "type": "letters", "answer": "TAOF", instruction: "Bra jobbat! Ta ledtråd 3" },
