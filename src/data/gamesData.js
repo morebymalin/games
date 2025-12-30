@@ -417,7 +417,7 @@ export const escapeGames = [
       "rooms": [
         { "id": 1, "name": "Kyrkan", "img": "/escape/sverigeshistoria/kyrkan.jpg", "type": "letters", "answer": "TAOF", instruction: "Bra jobbat! Ta ledtråd 3" },
         { "id": 2, "name": "Krig", "img": "/sverigeshistoria/krig.jpg", "type": "symbols", "allowedSymbols": ["circle", "cross", "star", "heart", "triangle", "rectangle", "cloud"], "answerSequence": ["circle", "star", "cloud", "triangle", "rectangle", "heart", "cross"], instruction: "Bra jobbat! Ta ledtråd 7" },
-        { "id": 3, "name": "Protester", "img": "/escape/sverigeshistoria/protester.jpg", "type": "letters", "answer": "HRKPL", instruction: "Bra jobbat! Ta ledtråd 10” },
+        { "id": 3, "name": "Protester", "img": "/escape/sverigeshistoria/protester.jpg", "type": "letters", "answer": "HRKPL", instruction: "Bra jobbat! Ta ledtråd 10" },
         { "id": 4, "name": "Stockholm", "img": "/escape/sverigeshistoria/stockholm.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "star", "heart", "hexagon", "rectangle"], "answerSequence": ["triangle", "hexagon", "circle"], instruction: "Bra jobbat! Ta ledtråd 4" },
         { "id": 5, "name": "Bondgården", "img": "/escape/sverigeshistoria/bondgarden.jpg", "type": "number", "answer": "1809", instruction: "Bra jobbat! Ta ledtråd 9" },
         { "id": 6, "name": "Pestbyn", "img": "/escape/sverigeshistoria/pestbyn.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "pink", "blue"], "answerSequence": ["blue", "green", "red", "yellow"], instruction: "Bra jobbat! Ta ledtråd 5" },
@@ -425,7 +425,7 @@ export const escapeGames = [
         { "id": 8, "name": "Vikingaskeppet", "img": "/escape/sverigeshistoria/vikingaskeppet.jpg", "type": "colors", "allowedColors": ["blue", "grey", "yellow", "red", "pink", "purple", "green", "black"], "answerSequence": ["green", "purple", "red", "yellow", "grey", "black"], instruction: "Bra jobbat! Ta ledtråd 2" },
         { "id": 9, "name": "Skolan", "img": "/sverigeshistoria/skolan.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "cross", "heart", "triangle", "rectangle"], "answerSequence": ["square", "triangle", "circle",  "rectangle", "cross"], },
         { "id": 10, "name": "Slottsmötet", "img": "/escape/sverigeshistoria/slottsmotet.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "pink", "purple"], "answerSequence": ["orange", "red", "yellow"], instruction: "Bra jobbat! Ta ledtråd 8" },
-        { "id": 11, "name": "Husen", "img": "/escape/sverigeshistoria/husen.jpg", "type": "letters", "answer": "DTLLOJ", instruction: "Bra jobbat! Ta ledtråd 11” },
+        { "id": 11, "name": "Husen", "img": "/escape/sverigeshistoria/husen.jpg", "type": "letters", "answer": "DTLLOJ", instruction: "Bra jobbat! Ta ledtråd 11" },
       ]
     }
   ]
