@@ -424,7 +424,7 @@ export const escapeGames = [
        { id: 7, name: "Vasas slott", img: "/escape/sverigeshistoria/vasasslott.jpg", "type": "number", "answer": "37628", instruction: "Bra jobbat! Ta ledtråd 6" },
        { id: 8, name: "Vikingaskeppet", img: "/escape/sverigeshistoria/vikingaskeppet.jpg", "type": "colors", "allowedColors": ["blue", "grey", "yellow", "red", "pink", "purple", "green", "black"], "answerSequence": ["green", "purple", "red", "yellow", "grey", "black"], instruction: "Bra jobbat! Ta ledtråd 2" },
        { id: 9, name: "Skolan", img: "/escape/sverigeshistoria/skolan.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "cross", "heart", "triangle", "rectangle"], "answerSequence": ["square", "triangle", "circle",  "rectangle", "cross"], },
-       { id: 10, name: "Slottsmötet", img: "/escape/sverigeshistoria/slottsmotet.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "pink", "purple"], "answerSequence": ["blue", "red", "yellow"], instruction: "Bra jobbat! Ta ledtråd 8" },
+       { id: 10, name: "Slottsmötet", img: "/escape/sverigeshistoria/slottsmotet.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "pink", "blue"], "answerSequence": ["blue", "red", "yellow"], instruction: "Bra jobbat! Ta ledtråd 8" },
        { id: 11, name: "Husen", img: "/escape/sverigeshistoria/husen.jpg", "type": "letters", "answer": "DTLLOJ", instruction: "Bra jobbat! Ta ledtråd 11" },
      ]
    },
