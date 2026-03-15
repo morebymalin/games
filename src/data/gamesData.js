@@ -428,8 +428,6 @@ export const escapeGames = [
        { id: 11, name: "Husen", img: "/escape/sverigeshistoria/husen.jpg", "type": "letters", "answer": "DTLLOJ", instruction: "Bra jobbat! Läs berättelsekort 10 och ta sedan ledtråd 11" },
      ]
    },
-
-
   
   {
     id: 12,
