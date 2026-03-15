@@ -436,7 +436,7 @@ export const escapeGames = [
     rooms: [
        { id: 1, name: "Fabrik", img: "/escape/hittapaskharen/fabrik.jpg", "type": "letters", "answer": "HARMBF", instruction: "Bra jobbat! Ta ledtråd 6" },
        { id: 2, name: "Huset", img: "/escape/hittapaskharen/huset.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "star", "heart", "triangle", "rectangle", "cloud"], "answerSequence": ["square", "star", "circle"], instruction: "Bra jobbat! Ta ledtråd 1" },
-       { id: 3, name: "Park", img: "/escape/hittapaskharen/park.jpg", "type": "letters", "answer": "VPDNJ", instruction: "Bra jobbat! },
+       { id: 3, name: "Park", img: "/escape/hittapaskharen/park.jpg", "type": "letters", "answer": "VPDNJ", instruction: "Bra jobbat!" },
        { id: 4, name: "Skola", img: "/escape/hittapaskharen/skola.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "triangle", "star", "hexagon", "rectangle"], "answerSequence": ["square", "circle", "hexagon", "triangle", "star"], instruction: "Bra jobbat! Ta ledtråd 3" },
        { id: 5, name: "Garage", img: "/escape/hittapaskharen/garage.jpg", "type": "number", "answer": "56213", instruction: "Bra jobbat! Ta sedan ledtråd 4" },
        { id: 6, name: "Mataffär", img: "/escape/hittapaskharen/mataffar.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "pink", "blue"], "answerSequence": ["orange", "green", "yellow", "red"], instruction: "Bra jobbat! Ta ledtråd 2" },
