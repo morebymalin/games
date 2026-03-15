@@ -430,6 +430,26 @@ export const escapeGames = [
    },
 
 
+  
+  {
+    id: 12,
+    name: "Hitta påskharen - kommer snart!",
+    win: "Tack för att ni hittade mig och hjälpte mig att hitta ut! Nu ska jag fortsätta gömma ägg! Glad Påsk!" ,
+    rooms: [
+       { id: 1, name: "Fabrik", img: "/escape/hittapaskharen/fabrik.jpg", "type": "letters", "answer": "HARMBF", instruction: "Bra jobbat! Ta ledtråd 6" },
+       { id: 2, name: "Huset", img: "/escape/hittapaskharen/huset.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "star", "heart", "triangle", "rectangle", "cloud"], "answerSequence": ["square", "star", "circle"], instruction: "Bra jobbat! Ta ledtråd 1" },
+       { id: 3, name: "Park", img: "/escape/hittapaskharen/park.jpg", "type": "letters", "answer": "VPDNJ", instruction: "Bra jobbat! },
+       { id: 4, name: "Skola", img: "/escape/hittapaskharen/skola.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "triangle", "star", "hexagon", "rectangle"], "answerSequence": ["square", "circle", "hexagon", "triangle", "star"], instruction: "Bra jobbat! Ta ledtråd 3" },
+       { id: 5, name: "Garage", img: "/escape/hittapaskharen/garage.jpg", "type": "number", "answer": "56213", instruction: "Bra jobbat! Ta sedan ledtråd 4" },
+       { id: 6, name: "Mataffär", img: "/escape/hittapaskharen/mataffar.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "pink", "blue"], "answerSequence": ["orange", "green", "yellow", "red"], instruction: "Bra jobbat! Ta ledtråd 2" },
+       { id: 7, name: "Kyrka", img: "/escape/hittapaskharen/kyrka.jpg", "type": "number", "answer": "812734", instruction: "Bra jobbat! Ta ledtråd 9" },
+       { id: 8, name: "Bibliotek", img: "/escape/hittapaskharen/bibliotek.jpg", "type": "colors", "allowedColors": ["blue", "grey", "yellow", "red", "pink", "purple", "green", "orange"], "answerSequence": ["green", "purple", "orange"], instruction: "Bra jobbat! Ta ledtråd 7" },
+       { id: 9, name: "Hotell", img: "/escape/hittapaskharen/hotell.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "cross", "heart", "triangle", "rectangle"], "answerSequence": ["triangle", "square", "circle", "cross"], instruction: "Bra jobbat! Ta ledtråd 10"  },
+       { id: 10, name: "Sjukhus", img: "/escape/hittapaskharen/sjukhus.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "pink", "blue"], "answerSequence": ["yellow", "blue", "green", "orange", "red"], instruction: "Bra jobbat! Ta ledtråd 5" },
+       { id: 11, name: "Lägenheter", img: "/escape/hittapaskharen/lagenhet.jpg", "type": "letters", "answer": "TSBG", instruction: "Bra jobbat! Ta ledtråd 8" },
+     ]
+   },
+
 
 
 
