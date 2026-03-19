@@ -431,7 +431,7 @@ export const escapeGames = [
   
   {
     id: 12,
-    name: "Hitta påskharen - kommer snart!",
+    name: "Hitta påskharen!",
     win: "Tack för att ni hittade mig och hjälpte mig att hitta ut! Nu ska jag fortsätta gömma ägg! Glad Påsk!" ,
     rooms: [
        { id: 1, name: "Fabrik", img: "/escape/hittapaskharen/fabrik.jpg", "type": "letters", "answer": "HARMBF", instruction: "Bra jobbat! Ta ledtråd 6" },
