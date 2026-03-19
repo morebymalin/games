@@ -416,7 +416,7 @@ export const escapeGames = [
     win: "Oj, vilken tidsresa ni har gjort! Men ni lyckades att ta er tillbaka till nutiden, vilken tur!" ,
     rooms: [
        { id: 1, name: "Kyrkan", img: "/escape/sverigeshistoria/kyrkan.jpg", "type": "letters", "answer": "TAOF", instruction: "Bra jobbat! Läs berättelsekort 2 och ta sedan ledtråd 3" },
-       { id: 2, name: "Krig", img: "/escape/sverigeshistoria/krig.jpg", "type": "symbols", "allowedSymbols": ["circle", "cross", "star", "heart", "triangle", "rectangle", "cloud"], "answerSequence": ["circle", "star", "cloud", "triangle", "rectangle", "heart", "cross"], instruction: "Bra jobbat! Läs berättelsekort 6 och ta sedan ledtråd 7" },
+       { id: 2, name: "Krig", img: "/escape/sverigeshistoria/krig.jpg", "type": "symbols", "allowedSymbols": ["circle", "cross", "star", "heart", "triangle", "rectangle", "cloud"], "answerSequence": ["circle", "star", "cloud", "rectangle", "triangle", "heart", "cross"], instruction: "Bra jobbat! Läs berättelsekort 6 och ta sedan ledtråd 7" },
        { id: 3, name: "Protester", img: "/escape/sverigeshistoria/protester.jpg", "type": "letters", "answer": "LRKHP", instruction: "Bra jobbat! Läs berättelsekort 9 och ta sedan ledtråd 10" },
        { id: 4, name: "Stockholm", img: "/escape/sverigeshistoria/stockholm.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "triangle", "heart", "hexagon", "rectangle"], "answerSequence": ["triangle", "hexagon", "circle"], instruction: "Bra jobbat! Läs berättelsekort 3 och ta sedan ledtråd 4" },
        { id: 5, name: "Bondgården", img: "/escape/sverigeshistoria/bondgarden.jpg", "type": "number", "answer": "1809", instruction: "Bra jobbat! Läs berättelsekort 8 och ta sedan ledtråd 9" },
