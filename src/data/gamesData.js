@@ -163,7 +163,7 @@ export const skattjakter = [
         img: "/skattjakt/nissejakten/nisse3.jpg",
         prompt: "Hjälp nissen att lösa rebusen.",
         answer: "TOMTEVERKSTAD",
-        hint: "Hitta ett ord för varje bild och ta bort bort de bokstäver som står bredvid bilden."
+        hint: "Hitta ett ord för varje bild och ta bort de bokstäver som står bredvid bilden."
       },
       {
         id: 5,
@@ -187,7 +187,7 @@ export const skattjakter = [
         img: "/skattjakt/nissejakten/nisse6.jpg",
         prompt: "Hjälp nissen att lösa rebusen.",
         answer: "JULGRANSPYNT",
-        hint: "Hitta ett ord för varje bild och ta bort bort de bokstäver som står bredvid bilden."
+        hint: "Hitta ett ord för varje bild och ta bort de bokstäver som står bredvid bilden."
       },
       {
         id: 8,
@@ -230,7 +230,7 @@ export const skattjakter = [
         img: "/skattjakt/paskharensskattjakt/aggjaktrebus1.jpg",
         prompt: "Lös rebusen!",
         answer: "HALLONBUSKEN",
-        hint: "Följ tomtens instruktioner."
+        hint: "Lista ut vad bilderna visar, ta bort de bokstäver som står och lägg ihop resten till ett ord."
       },
       {
         id: 2,
@@ -245,7 +245,7 @@ export const skattjakter = [
         img: "/skattjakt/paskharensskattjakt/aggjaktschiffer.jpg",
         prompt: "Hitta ledtrådarna och lös schiffret!",
         answer: "SANDLÅDAN",
-        hint: "Börja vid nissen och hitta vägen till slutet."
+        hint: "Varje siffra motsvarar en bokstav."
       },
       {
         id: 4,
@@ -253,7 +253,7 @@ export const skattjakter = [
         img: "/skattjakt/paskharensskattjakt/aggjaktmemory.jpg",
         prompt: "Hitta det rätta paret!",
         answer: "TRÄDET",
-        hint: "Kom ihåg att använda bokstäver."
+        hint: "Leta efter ett par som ni känner igen från bilden."
       },
       {
         id: 5,
@@ -261,7 +261,7 @@ export const skattjakter = [
         img: "/skattjakt/paskharensskattjakt/ordsok.jpg",
         prompt: "Hitta orden och lista ut gömstället från de överblivna bokstäverna.",
         answer: "SOLSTOLEN",
-        hint: "Hitta ett ord för varje bild och ta bort bort de bokstäver som står bredvid bilden."
+        hint: "När ni hittat alla orden, bildar ni ett ord från bokstäverna som blev över."
       },
       {
         id: 6,
@@ -269,7 +269,7 @@ export const skattjakter = [
         img: "/skattjakt/paskharensskattjakt/aggjaktbokstaver.jpg",
         prompt: "Hitta bokstäverna!",
         answer: "SKJULET",
-        hint: "Vilket ord bildar bokstäverna?"
+        hint: "Kasta om bokstäverna så de bilder ett ord."
       },
       {
         id: 7,
@@ -277,7 +277,7 @@ export const skattjakter = [
         img: "/skattjakt/paskharensskattjakt/aggjaktmotsats.jpg",
         prompt: "Hitta orden och lista ut deras motsatser!",
         answer: "BILEN",
-        hint: "Vad heter djuren på engelska?"
+        hint: "Motsats betyder ungefär tvärtom. Ex. lång och kort. "
       },
       {
         id: 8,
@@ -285,7 +285,7 @@ export const skattjakter = [
         img: "/skattjakt/paskharensskattjakt/aggjaktengelska.jpg",
         prompt: "Hitta kläderna!",
         answer: "GUNGAN",
-        hint: "Hitta ett ord för varje bild och ta bort bort de bokstäver som står bredvid bilden."
+        hint: "Hitta rätt kläder utifrån de engelska namnen."
       },
       {
         id: 9,
@@ -293,7 +293,7 @@ export const skattjakter = [
         img: "/skattjakt/paskharensskattjakt/aggjaktrebus2.jpg",
         prompt: "Lös rebusen!",
         answer: "GRÄSKLIPPAREN",
-        hint: "Kom ihåg att använda bokstäver."
+        hint: "Lista ut vad bilderna visar, ta bort de bokstäver som står och lägg ihop resten till ett ord."
       },
       {
         id: 10,
