@@ -220,81 +220,80 @@ export const skattjakter = [
     {
     id: 2,
     name: "PÅSKHARENS ÄGGJAKT - kommer snart!",
-    introImg: "/skattjakt/nissejakten/introbild.jpg",
+    introImg: "/skattjakt/paskharensskattjakt/aggjaktinfo.jpg",
     finishImg: "/skattjakt/nissejakten/grattistomten.jpg",
     
     questions: [
       {
         id: 1,
         type: "letters",
-        img: "/skattjakt/nissejakten/tomtensinfo.jpg",
-        prompt: "Läs tomtens tips!",
-        answer: "OK",
+        img: "/skattjakt/paskharensskattjakt/aggjaktrebus1.jpg",
+        prompt: "Lös rebusen!",
+        answer: "HALLONBUSKEN",
         hint: "Följ tomtens instruktioner."
       },
       {
         id: 2,
         type: "letters",
-        img: "/skattjakt/nissejakten/nisse1.jpg",
-        prompt: "Hjälp nissen genom labyrinten. Vad blir det hemliga ordet?",
-        answer: "SNÖLYKTA",
-        hint: "Börja vid nissen och hitta vägen till slutet."
-      },
+        img: "/skattjakt/paskharensskattjakt/1agg.jpg",
+        prompt: "Ni hittade det första ägget!",
+        hint: "Följ tomtens instruktioner."
+      },      
       {
         id: 3,
         type: "letters",
-        img: "/skattjakt/nissejakten/nisse2.jpg",
-        prompt: "Hjälp nissen att hitta och räkna alla saxar.",
-        answer: "TJUGOSJU",
-        hint: "Kom ihåg att använda bokstäver."
+        img: "/skattjakt/paskharensskattjakt/aggjaktschiffer.jpg",
+        prompt: "Hitta ledtrådarna och lös schiffret!",
+        answer: "SANDLÅDAN",
+        hint: "Börja vid nissen och hitta vägen till slutet."
       },
       {
         id: 4,
         type: "letters",
-        img: "/skattjakt/nissejakten/nisse3.jpg",
-        prompt: "Hjälp nissen att lösa rebusen.",
-        answer: "TOMTEVERKSTAD",
-        hint: "Hitta ett ord för varje bild och ta bort bort de bokstäver som står bredvid bilden."
+        img: "/skattjakt/paskharensskattjakt/aggjaktmemory.jpg",
+        prompt: "Hitta det rätta paret!",
+        answer: "TRÄDET",
+        hint: "Kom ihåg att använda bokstäver."
       },
       {
         id: 5,
         type: "letters",
-        img: "/skattjakt/nissejakten/nisse4.jpg",
-        prompt: "Hjälp nissen att hitta alla färgburkar.",
-        answer: "TOMTEN",
-        hint: "Vilket ord bildar bokstäverna?"
+        img: "/skattjakt/paskharensskattjakt/ordsok.jpg",
+        prompt: "Hitta orden och lista ut gömstället från de överblivna bokstäverna.",
+        answer: "SOLSTOLEN",
+        hint: "Hitta ett ord för varje bild och ta bort bort de bokstäver som står bredvid bilden."
       },
       {
         id: 6,
         type: "letters",
-        img: "/skattjakt/nissejakten/nisse5.jpg",
-        prompt: "Hjälp nissen att hitta djuren.",
-        answer: "FROGCATDOG",
-        hint: "Vad heter djuren på engelska?"
+        img: "/skattjakt/paskharensskattjakt/aggjaktbokstaver.jpg",
+        prompt: "Hitta bokstäverna!",
+        answer: "SKJULET",
+        hint: "Vilket ord bildar bokstäverna?"
       },
       {
         id: 7,
         type: "letters",
-        img: "/skattjakt/nissejakten/nisse6.jpg",
-        prompt: "Hjälp nissen att lösa rebusen.",
-        answer: "JULGRANSPYNT",
-        hint: "Hitta ett ord för varje bild och ta bort bort de bokstäver som står bredvid bilden."
+        img: "/skattjakt/paskharensskattjakt/aggjaktmotsats.jpg",
+        prompt: "Hitta orden och lista ut deras motsatser!",
+        answer: "BILEN",
+        hint: "Vad heter djuren på engelska?"
       },
       {
         id: 8,
         type: "letters",
-        img: "/skattjakt/nissejakten/nisse7.jpg",
-        prompt: "Hjälp nissen att hitta alla tejprullar.",
-        answer: "FJORTON",
-        hint: "Kom ihåg att använda bokstäver."
+        img: "/skattjakt/paskharensskattjakt/aggjaktengelska.jpg",
+        prompt: "Hitta kläderna!",
+        answer: "GUNGAN",
+        hint: "Hitta ett ord för varje bild och ta bort bort de bokstäver som står bredvid bilden."
       },
       {
         id: 9,
         type: "letters",
-        img: "/skattjakt/nissejakten/nisse8.jpg",
-        prompt: "Hjälp nissen att hitta något att klättra på.",
-        answer: "JULKLAPP",
-        hint: "Finns det något nära nissen som hon kan klättra på?"
+        img: "/skattjakt/paskharensskattjakt/aggjaktrebus2.jpg",
+        prompt: "Lös rebusen!",
+        answer: "GRÄSKLIPPAREN",
+        hint: "Kom ihåg att använda bokstäver."
       },
       {
         id: 10,
