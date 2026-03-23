@@ -218,7 +218,7 @@ export const skattjakter = [
 
     {
     id: 2,
-    name: "PÅSKHARENS ÄGGJAKT - kommer snart!",
+    name: "PÅSKHARENS ÄGGJAKT",
     introImg: "/skattjakt/paskharensskattjakt/aggjaktinfo.jpg",
     finishImg: "/skattjakt/paskharensskattjakt/agg8.jpg",
     
