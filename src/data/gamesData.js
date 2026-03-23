@@ -3,8 +3,10 @@
 
   
 // git pull
+// npm install
+
 // git add .
-// git commit -m "ready for GitHub Pages deploy"
+// git commit -m "update"
 // git push
 
 // npm run deploy
@@ -230,6 +232,7 @@ export const skattjakter = [
         prompt: "Lös rebusen!",
         answer: "HALLONBUSKEN",
         hint: "Lista ut vad bilderna visar, ta bort de bokstäver som står och lägg ihop resten till ett ord."
+      },
       {
         id: 2,
         type: "letters",
