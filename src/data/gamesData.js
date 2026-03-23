@@ -231,16 +231,8 @@ export const skattjakter = [
         prompt: "Lös rebusen!",
         answer: "HALLONBUSKEN",
         hint: "Lista ut vad bilderna visar, ta bort de bokstäver som står och lägg ihop resten till ett ord."
-      },
       {
         id: 2,
-        type: "letters",
-        img: "/skattjakt/paskharensskattjakt/1agg.jpg",
-        prompt: "Ni hittade det första ägget!",
-        hint: "Följ tomtens instruktioner."
-      },      
-      {
-        id: 3,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktschiffer.jpg",
         prompt: "Hitta ledtrådarna och lös schiffret!",
@@ -248,7 +240,7 @@ export const skattjakter = [
         hint: "Varje siffra motsvarar en bokstav."
       },
       {
-        id: 4,
+        id: 3,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktmemory.jpg",
         prompt: "Hitta det rätta paret!",
@@ -256,7 +248,7 @@ export const skattjakter = [
         hint: "Leta efter ett par som ni känner igen från bilden."
       },
       {
-        id: 5,
+        id: 4,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/ordsok.jpg",
         prompt: "Hitta orden och lista ut gömstället från de överblivna bokstäverna.",
@@ -264,7 +256,7 @@ export const skattjakter = [
         hint: "När ni hittat alla orden, bildar ni ett ord från bokstäverna som blev över."
       },
       {
-        id: 6,
+        id: 5,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktbokstaver.jpg",
         prompt: "Hitta bokstäverna!",
@@ -272,7 +264,7 @@ export const skattjakter = [
         hint: "Kasta om bokstäverna så de bilder ett ord."
       },
       {
-        id: 7,
+        id: 6,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktmotsats.jpg",
         prompt: "Hitta orden och lista ut deras motsatser!",
@@ -280,7 +272,7 @@ export const skattjakter = [
         hint: "Motsats betyder ungefär tvärtom. Ex. lång och kort. "
       },
       {
-        id: 8,
+        id: 7,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktengelska.jpg",
         prompt: "Hitta kläderna!",
@@ -288,21 +280,13 @@ export const skattjakter = [
         hint: "Hitta rätt kläder utifrån de engelska namnen."
       },
       {
-        id: 9,
+        id: 8,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktrebus2.jpg",
         prompt: "Lös rebusen!",
         answer: "GRÄSKLIPPAREN",
         hint: "Lista ut vad bilderna visar, ta bort de bokstäver som står och lägg ihop resten till ett ord."
       },
-      {
-        id: 10,
-        type: "letters",
-        img: "/skattjakt/nissejakten/nisse9.jpg",
-        prompt: "Hjälp nissen att lösa det hemliga meddelandet.",
-        answer: "AEIOUYÅÄÖ",
-        hint: "Byt ut frågetecknen mot vokaler."
-      }
     ]
   },
 
