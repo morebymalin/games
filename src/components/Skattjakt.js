@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Skattjakt.css";
 import "./GameShared.css";
 
@@ -15,6 +15,7 @@ function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg, finis
   const [wrongAttempts, setWrongAttempts] = useState(0); // antal fel på aktuell fråga
   const [showHintBtn, setShowHintBtn] = useState(false); // visa ledtrådsknapp?
   const [hintVisible, setHintVisible] = useState(false); // popup synlig?
+  const [currentImgIndex, setCurrentImgIndex] = useState(0);
 
 
   // Säker väg till bilder i public även vid subkataloger
@@ -25,6 +26,28 @@ function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg, finis
     return (process.env.PUBLIC_URL || "") + src; // ex: /pairs/sun.svg => /appsub/pairs/sun.svg
   };
 
+  const current = step >= 0 ? questions[step] : null;
+  const currentImages = current
+    ? Object.keys(current)
+        .filter((key) => /^img\d*$/.test(key) && current[key])
+        .sort((left, right) => {
+          const leftOrder = left === "img" ? 1 : Number(left.slice(3));
+          const rightOrder = right === "img" ? 1 : Number(right.slice(3));
+          return leftOrder - rightOrder;
+        })
+        .map((key) => current[key])
+    : [];
+  const hasMultipleImages = currentImages.length > 1;
+
+  useEffect(() => {
+    setCurrentImgIndex(0);
+  }, [step]);
+
+  useEffect(() => {
+    if (currentImgIndex > currentImages.length - 1) {
+      setCurrentImgIndex(0);
+    }
+  }, [currentImgIndex, currentImages.length]);
 
 
   // Visa intro-sida innan första frågan
@@ -49,7 +72,7 @@ function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg, finis
       </div>
     );
   }
-  const current = questions[step];
+
   // Hjälpfunktioner för para ihop
   const isImgUsed = img => pairs.some(pair => pair.img === img || pair.leftImg === img || pair.rightImg === img);
   const isLeftImgUsed = img => pairs.some(pair => pair.leftImg === img);
@@ -235,7 +258,37 @@ function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg, finis
   return (
     <div className="skattjakt-container">
       <h2>Fråga {step + 1}</h2>
-      {current.img && <img src={resolveImg(current.img)} alt="" className="game-img-large" onError={(e) => { e.target.style.display = 'none'; }} />}
+      {currentImages.length > 0 && (
+        <div className="question-gallery">
+          <img
+            src={resolveImg(currentImages[currentImgIndex])}
+            alt=""
+            className="game-img-large"
+            onError={(e) => { e.target.style.display = 'none'; }}
+          />
+          {hasMultipleImages && (
+            <>
+              <button
+                type="button"
+                className="gallery-nav-btn gallery-nav-btn-left"
+                onClick={() => setCurrentImgIndex((prev) => (prev === 0 ? currentImages.length - 1 : prev - 1))}
+                aria-label="Visa föregående bild"
+              >
+                ‹
+              </button>
+              <button
+                type="button"
+                className="gallery-nav-btn gallery-nav-btn-right"
+                onClick={() => setCurrentImgIndex((prev) => (prev === currentImages.length - 1 ? 0 : prev + 1))}
+                aria-label="Visa nästa bild"
+              >
+                ›
+              </button>
+              <div className="gallery-counter">{currentImgIndex + 1} / {currentImages.length}</div>
+            </>
+          )}
+        </div>
+      )}
       <div className="game-question-box">
         <div className="question-prompt">{current.prompt}</div>
 
@@ -413,7 +466,6 @@ function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg, finis
             )}
           </>
         )}
-
 
 
 

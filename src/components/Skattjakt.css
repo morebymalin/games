@@ -18,6 +18,51 @@
   word-break: break-word;
 }
 
+.question-gallery {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--color-primary-dark);
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+}
+
+.gallery-nav-btn-left {
+  left: max(8px, calc(50% - 220px));
+}
+
+.gallery-nav-btn-right {
+  right: max(8px, calc(50% - 220px));
+}
+
+.gallery-counter {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--color-primary-dark);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: .8rem;
+  font-weight: 700;
+  box-shadow: var(--shadow-sm);
+}
+
 /* Hint system */
 .hint-btn {
   margin-top: 10px;
@@ -222,6 +267,20 @@
 
 /* Mobiloptimering */
 @media (max-width: 420px) {
+  .gallery-nav-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1.5rem;
+  }
+
+  .gallery-nav-btn-left {
+    left: 6px;
+  }
+
+  .gallery-nav-btn-right {
+    right: 6px;
+  }
+
   .pair-images-grid { gap: 10px; }
   .pair-card-img, .pair-card-word { padding: 10px 12px; min-height: 68px; }
   .pair-card-img img { width: 48px; height: 48px; }
