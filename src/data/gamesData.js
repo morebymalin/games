@@ -253,7 +253,7 @@ export const skattjakter = [
       {
         id: 4,
         type: "letters",
-        img: "/skattjakt/paskharensskattjakt/ordsok.jpg",
+        img: "/skattjakt/paskharensskattjakt/aggjaktordsok.jpg",
         img2: "/skattjakt/paskharensskattjakt/ordsok.jpg",
         img3: "/skattjakt/paskharensskattjakt/ordlista.jpg",
         prompt: "Hitta orden och lista ut gömstället från de överblivna bokstäverna.",
