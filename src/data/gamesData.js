@@ -229,8 +229,7 @@ export const skattjakter = [
         id: 1,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktrebus1.jpg",
-        img2: "/skattjakt/paskharensskattjakt/aggjaktschiffer.jpg",
-        img3: "/skattjakt/paskharensskattjakt/aggjaktmemory.jpg",
+        img2: "/skattjakt/paskharensskattjakt/rebus1.jpg",
         prompt: "Lös rebusen!",
         answer: "HALLONBUSKEN",
         hint: "Lista ut vad bilderna visar, ta bort de bokstäver som står och lägg ihop resten till ett ord."
@@ -239,9 +238,6 @@ export const skattjakter = [
         id: 2,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktschiffer.jpg",
-        img2: "/skattjakt/paskharensskattjakt/ordsok.jpg",
-        img3: "/skattjakt/paskharensskattjakt/aggjaktbokstaver.jpg",
-
         prompt: "Hitta ledtrådarna och lös schiffret!",
         answer: "SANDLÅDAN",
         hint: "Varje siffra motsvarar en bokstav."
@@ -250,9 +246,6 @@ export const skattjakter = [
         id: 3,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktmemory.jpg",
-        img2: "/skattjakt/paskharensskattjakt/aggjaktmotsats.jpg",
-        img3: "/skattjakt/paskharensskattjakt/aggjaktengelska.jpg",
-
         prompt: "Hitta det rätta paret!",
         answer: "TRÄDET",
         hint: "Leta efter ett par som ni känner igen från bilden."
@@ -261,8 +254,8 @@ export const skattjakter = [
         id: 4,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/ordsok.jpg",
-        img2: "/skattjakt/paskharensskattjakt/aggjaktrebus2.jpg",
-        img3: "/skattjakt/paskharensskattjakt/aggjaktrebus1.jpg",
+        img2: "/skattjakt/paskharensskattjakt/ordsok.jpg",
+        img3: "/skattjakt/paskharensskattjakt/ordlista.jpg",
         prompt: "Hitta orden och lista ut gömstället från de överblivna bokstäverna.",
         answer: "SOLSTOLEN",
         hint: "När ni hittat alla orden, bildar ni ett ord från bokstäverna som blev över."
@@ -271,8 +264,6 @@ export const skattjakter = [
         id: 5,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktbokstaver.jpg",
-        img2: "/skattjakt/paskharensskattjakt/aggjaktengelska.jpg",
-        img3: "/skattjakt/paskharensskattjakt/aggjaktmemory.jpg",
         prompt: "Hitta bokstäverna!",
         answer: "SKJULET",
         hint: "Kasta om bokstäverna så de bilder ett ord."
@@ -281,8 +272,6 @@ export const skattjakter = [
         id: 6,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktmotsats.jpg",
-        img2: "/skattjakt/paskharensskattjakt/aggjaktrebus1.jpg",
-        img3: "/skattjakt/paskharensskattjakt/ordsok.jpg",
         prompt: "Hitta orden och lista ut deras motsatser!",
         answer: "BILEN",
         hint: "Motsats betyder ungefär tvärtom. Ex. lång och kort. "
@@ -291,8 +280,6 @@ export const skattjakter = [
         id: 7,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktengelska.jpg",
-        img2: "/skattjakt/paskharensskattjakt/aggjaktbokstaver.jpg",
-        img3: "/skattjakt/paskharensskattjakt/aggjaktrebus2.jpg",
         prompt: "Hitta kläderna!",
         answer: "GUNGAN",
         hint: "Hitta rätt kläder utifrån de engelska namnen."
@@ -301,9 +288,7 @@ export const skattjakter = [
         id: 8,
         type: "letters",
         img: "/skattjakt/paskharensskattjakt/aggjaktrebus2.jpg",
-        img2: "/skattjakt/paskharensskattjakt/aggjaktmotsats.jpg",
-        img3: "/skattjakt/paskharensskattjakt/aggjaktschiffer.jpg",
-
+        img2: "/skattjakt/paskharensskattjakt/rebus2.jpg",
         prompt: "Lös rebusen!",
         answer: "GRÄSKLIPPAREN",
         hint: "Lista ut vad bilderna visar, ta bort de bokstäver som står och lägg ihop resten till ett ord."
