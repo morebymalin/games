@@ -335,7 +335,7 @@ export const skattjakter = [
           { img1: "/pairs/buske1.svg", img2: "/pairs/hallon.svg"}, 
           { img1: "/pairs/buske2.svg", img2: "/pairs/bjornbar.svg"},
           { img1: "/pairs/buske3.svg", img2: "/pairs/blabar.svg"},
-        ]
+        ],
         hint: "Para ihop buskarna med rätt färg."
       },
       {
@@ -371,7 +371,7 @@ export const skattjakter = [
           { img1: "/pairs/blomma1.svg", img2: "/pairs/blacirkel.svg"}, 
           { img1: "/pairs/blomma2.svg", img2: "/pairs/rosacirkel.svg"},
           { img1: "/pairs/blomma3.svg", img2: "/pairs/orangecirkel.svg"},
-        ]
+        ],
         hint: "Para ihop blommorna med rätt färg."
       },
       {
