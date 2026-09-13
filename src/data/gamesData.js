@@ -295,7 +295,96 @@ export const skattjakter = [
       },
     ]
   },
-
+  {
+    id: 7,
+    name: "TROLLSKOGENS HEMLIGHET (Yngre barn) - kommer snart!",
+    introImg: "/skattjakt/trollskogen/introbild.jpg",
+    finishImg: "/skattjakt/trollskogen/grattistomten.jpg",
+    
+    questions: [
+      {
+        id: 1,
+        type: "letters",
+        img: "/skattjakt/trollskogen/ingastenar.jpg",
+        img2: "/skattjakt/trollskogen/yngregul.jpg",
+        prompt: "Aktivera gula stenen!",
+        answer: ["TRE", "3" ],
+        hint: "Räkna alla solar."
+      },
+      {
+        id: 2,
+        type: "letters",
+        img: "/skattjakt/trollskogen/gulsten.jpg",
+        img2: "/skattjakt/trollskogen/yngrebla.jpg",
+        prompt: "Aktivera blåa stenen!",
+        answer: ["RÖDA", "RÖD", "RÖDASVAMPEN"],
+        hint: "Vilken färg har svampen?"
+      },
+      {
+        id: 3,
+        type: "pairImg",
+        img: "/skattjakt/trollskogen/blasten.jpg",
+        img2: "/skattjakt/trollskogen/yngrerod.jpg",
+        prompt: "Aktivera röda stenen!",
+        pairs: [
+          { img1: "/pairs/buske1.svg", img2: "/pairs/bjornbar.svg"}, 
+          { img1: "/pairs/buske2.svg", img2: "/pairs/blabar.svg"},
+          { img1: "/pairs/buske3.svg", img2: "/pairs/hallon.svg"},
+        ],
+        answer: [
+          { img1: "/pairs/buske1.svg", img2: "/pairs/hallon.svg"}, 
+          { img1: "/pairs/buske2.svg", img2: "/pairs/bjornbar.svg"},
+          { img1: "/pairs/buske3.svg", img2: "/pairs/blabar.svg"},
+        ]
+        hint: "Para ihop buskarna med rätt färg."
+      },
+      {
+        id: 4,
+        type: "letters",
+        img: "/skattjakt/trollskogen/rodsten.jpg",
+        img2: "/skattjakt/trollskogen/yngregron.jpg",
+        prompt: "Aktivera gröna stenen!",
+        answer: ["10", "tio", "tiohus"],
+        hint: "Räkna alla svamphusen."
+      },
+      {
+        id: 5,
+        type: "letters",
+        img: "/skattjakt/trollskogen/gronsten.jpg",
+        img2: "/skattjakt/trollskogen/yngrelila.jpg",
+        prompt: "Aktivera lila stenen!",
+        answer: ["uggla", "ugla", "ugglan"],
+        hint: "Vilket djur sitter på stenen i mitten?"
+      },
+      {
+        id: 6,
+        type: "pairImg",
+        img: "/skattjakt/trollskogen/lilasten.jpg",
+        img2: "/skattjakt/trollskogen/yngrerosa.jpg",
+        prompt: "Aktivera rosa stenen!",
+        pairs: [
+          { img1: "/pairs/blomma1.svg", img2: "/pairs/rosacirkel.svg"}, 
+          { img1: "/pairs/blomma2.svg", img2: "/pairs/orangecirkel.svg"},
+          { img1: "/pairs/blomma3.svg", img2: "/pairs/blacirkel.svg"},
+        ],
+        answer: [
+          { img1: "/pairs/blomma1.svg", img2: "/pairs/blacirkel.svg"}, 
+          { img1: "/pairs/blomma2.svg", img2: "/pairs/rosacirkel.svg"},
+          { img1: "/pairs/blomma3.svg", img2: "/pairs/orangecirkel.svg"},
+        ]
+        hint: "Para ihop blommorna med rätt färg."
+      },
+      {
+        id: 7,
+        type: "letters",
+        img: "/skattjakt/trollskogen/rosasten.jpg",
+        img2: "/skattjakt/trollskogen/yngreguld.jpg",
+        prompt: "Aktivera guldiga stenen!",
+        answer: ["ekorre", "ekore"],
+        hint: "Vilket djur sitter i trädet?"
+      },
+    ]
+  },
 
 
 
