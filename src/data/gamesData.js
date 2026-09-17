@@ -304,7 +304,7 @@ export const skattjakter = [
     questions: [
       {
         id: 1,
-        type: "letters",
+        type: "number",
         img: "/skattjakt/trollskogen/ingastenar.jpg",
         img2: "/skattjakt/trollskogen/yngregul.jpg",
         prompt: "Aktivera gula stenen!",
@@ -340,7 +340,7 @@ export const skattjakter = [
       },
       {
         id: 4,
-        type: "letters",
+        type: "number",
         img: "/skattjakt/trollskogen/rodsten.jpg",
         img2: "/skattjakt/trollskogen/yngregron.jpg",
         prompt: "Aktivera gröna stenen!",
@@ -382,6 +382,87 @@ export const skattjakter = [
         prompt: "Aktivera guldiga stenen!",
         answer: ["ekorre", "ekore"],
         hint: "Vilket djur sitter i trädet?"
+      },
+    ]
+  },
+  {
+    id: 8,
+    name: "TROLLSKOGENS HEMLIGHET (Äldre barn) - kommer snart!",
+    introImg: "/skattjakt/trollskogen/introbild.jpg",
+    finishImg: "/skattjakt/trollskogen/grattistomten.jpg",
+    
+    questions: [
+      {
+        id: 1,
+        type: "number",
+        img: "/skattjakt/trollskogen/ingastenar.jpg",
+        img2: "/skattjakt/trollskogen/aldregul.jpg",
+        prompt: "Aktivera gula stenen!",
+        answer: ["TRETTITVÅ", "32", "TRETTIOTVÅ", "TRETIOTVÅ", "TRETITVÅ" ],
+        hint: "Räkna alla solstrålar."
+      },
+      {
+        id: 2,
+        type: "letters",
+        img: "/skattjakt/trollskogen/gulsten.jpg",
+        img2: "/skattjakt/trollskogen/aldrebla.jpg",
+        prompt: "Aktivera blåa stenen!",
+        answer: ["MAGI"],
+        hint: "Vilket ord bildar bokstäverna?"
+      },
+      {
+        id: 3,
+        type: "number",
+        img: "/skattjakt/trollskogen/blasten.jpg",
+        img2: "/skattjakt/trollskogen/aldrerod.jpg",
+        prompt: "Aktivera röda stenen!",
+        answer: ["14", "FJORTON"],
+        hint: "Räkna bären på de 2 buskarna med flest bär."
+      },
+      {
+        id: 4,
+        type: "number",
+        img: "/skattjakt/trollskogen/rodsten.jpg",
+        img2: "/skattjakt/trollskogen/aldregron.jpg",
+        prompt: "Aktivera gröna stenen!",
+        answer: ["8", "åtta", "åta"],
+        hint: "Vilken siffra finns inte bland husen?"
+      },
+      {
+        id: 5,
+        type: "letters",
+        img: "/skattjakt/trollskogen/gronsten.jpg",
+        img2: "/skattjakt/trollskogen/aldrelila.jpg",
+        prompt: "Aktivera lila stenen!",
+        answer: ["bi"],
+        hint: "Räkna de små, flygande djuren. Inte humlor men..."
+      },
+      {
+        id: 6,
+        type: "pair",
+        img: "/skattjakt/trollskogen/lilasten.jpg",
+        img2: "/skattjakt/trollskogen/aldrerosa.jpg",
+        prompt: "Aktivera rosa stenen!",
+        pairs: [
+          { word: "Orange", img: "/pairs/blomma2.svg"}, 
+          { word: "Blue", img: "/pairs/blomma3.svg"},
+          { word: "Pink", img: "/pairs/blomma1.svg"},
+        ],
+        answer: [
+          { word: "Pink", img: "/pairs/blomma2.svg"}, 
+          { word: "Orange", img: "/pairs/blomma3.svg"},
+          { word: "Blue", img: "/pairs/blomma1.svg"},
+        ],
+        hint: "Para ihop blommorna med rätt färg."
+      },
+      {
+        id: 7,
+        type: "letters",
+        img: "/skattjakt/trollskogen/rosasten.jpg",
+        img2: "/skattjakt/trollskogen/aldreguld.jpg",
+        prompt: "Aktivera guldiga stenen!",
+        answer: ["solfågel", "fågelsol", "solochfågel", "fågelochsol"],
+        hint: "Skriv de två orden utan mellanrum."
       },
     ]
   },
