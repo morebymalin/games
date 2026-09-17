@@ -298,8 +298,9 @@ export const skattjakter = [
   {
     id: 7,
     name: "TROLLSKOGENS HEMLIGHET (Yngre barn) - kommer snart!",
-    introImg: "/skattjakt/trollskogen/introbild.jpg",
-    finishImg: "/skattjakt/trollskogen/grattistomten.jpg",
+    introImg: "/skattjakt/trollskogen/introtrollskogen.jpg",
+    introImg2: "/skattjakt/trollskogen/introtrollskogen1.jpg",
+    finishImg: "/skattjakt/trollskogen/allastenar.jpg",
     
     questions: [
       {
@@ -388,8 +389,9 @@ export const skattjakter = [
   {
     id: 8,
     name: "TROLLSKOGENS HEMLIGHET (Äldre barn) - kommer snart!",
-    introImg: "/skattjakt/trollskogen/introbild.jpg",
-    finishImg: "/skattjakt/trollskogen/grattistomten.jpg",
+    introImg: "/skattjakt/trollskogen/introtrollskogen.jpg",
+    introImg: "/skattjakt/trollskogen/introtrollskogen1.jpg",
+    finishImg: "/skattjakt/trollskogen/allastenar.jpg",
     
     questions: [
       {
