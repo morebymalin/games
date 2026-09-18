@@ -1,6 +1,9 @@
 // Central datakälla för skattjakter och escape rooms
 // Lägg till nya objekt i dessa arrayer utan att röra komponentlogik.
 
+// npm start   (för att testa lokalt)
+
+//nedan för att ta ner senaste ändringar och sedan kunna pusha upp nytt
   
 // git pull
 // npm install

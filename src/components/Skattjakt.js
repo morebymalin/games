@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Skattjakt.css";
 import "./GameShared.css";
 
-function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg, finishImg }) {
+function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg, introImages = [], finishImg }) {
 
   // Hooks måste alltid ligga överst!
   const [step, setStep] = useState(-1);
@@ -27,6 +27,8 @@ function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg, finis
   };
 
   const current = step >= 0 ? questions[step] : null;
+  const introGalleryImages = introImages.length > 0 ? introImages : (introImg ? [introImg] : []);
+  const hasMultipleIntroImages = introGalleryImages.length > 1;
   const currentImages = current
     ? Object.keys(current)
         .filter((key) => /^img\d*$/.test(key) && current[key])
@@ -38,24 +40,48 @@ function Skattjakt({ questions = [], skattjaktName = "", goHome, introImg, finis
         .map((key) => current[key])
     : [];
   const hasMultipleImages = currentImages.length > 1;
+  const activeGalleryLength = step === -1 ? introGalleryImages.length : currentImages.length;
 
   useEffect(() => {
     setCurrentImgIndex(0);
   }, [step]);
 
   useEffect(() => {
-    if (currentImgIndex > currentImages.length - 1) {
+    if (currentImgIndex > activeGalleryLength - 1) {
       setCurrentImgIndex(0);
     }
-  }, [currentImgIndex, currentImages.length]);
+  }, [currentImgIndex, activeGalleryLength]);
 
 
   // Visa intro-sida innan första frågan
-  if (step === -1 && introImg) {
+  if (step === -1 && introGalleryImages.length > 0) {
     return (
       <div className="skattjakt-container">
         <h2>{skattjaktName}</h2>
-        <img src={resolveImg(introImg)} alt="Intro" className="game-img-large" />
+        <div className="question-gallery">
+          <img src={resolveImg(introGalleryImages[currentImgIndex])} alt="Intro" className="game-img-large" />
+          {hasMultipleIntroImages && (
+            <>
+              <button
+                type="button"
+                className="gallery-nav-btn gallery-nav-btn-left"
+                onClick={() => setCurrentImgIndex((prev) => (prev === 0 ? introGalleryImages.length - 1 : prev - 1))}
+                aria-label="Visa föregående bild"
+              >
+                ‹
+              </button>
+              <button
+                type="button"
+                className="gallery-nav-btn gallery-nav-btn-right"
+                onClick={() => setCurrentImgIndex((prev) => (prev === introGalleryImages.length - 1 ? 0 : prev + 1))}
+                aria-label="Visa nästa bild"
+              >
+                ›
+              </button>
+              <div className="gallery-counter">{currentImgIndex + 1} / {introGalleryImages.length}</div>
+            </>
+          )}
+        </div>
         <div className="game-question-box">
           <button className="game-check-btn" onClick={() => setStep(0)}>Starta skattjakten</button>
         </div>

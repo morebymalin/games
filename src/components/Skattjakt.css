@@ -27,8 +27,7 @@
 
 .gallery-nav-btn {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 12px;
   width: 42px;
   height: 42px;
   border: none;
@@ -42,11 +41,11 @@
 }
 
 .gallery-nav-btn-left {
-  left: max(8px, calc(50% - 220px));
+  left: 12px;
 }
 
 .gallery-nav-btn-right {
-  right: max(8px, calc(50% - 220px));
+  right: 12px;
 }
 
 .gallery-counter {

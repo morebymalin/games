@@ -68,11 +68,20 @@ function App() {
         (() => {
           const jakt = skattjakter.find(jakt => jakt.id === selectedSkattjakt) || {};
           const questions = jakt.shuffleQuestions ? shuffleArray(jakt.questions || []) : (jakt.questions || []);
+          const introImages = Object.keys(jakt)
+            .filter((key) => /^introImg\d*$/.test(key) && jakt[key])
+            .sort((left, right) => {
+              const leftOrder = left === "introImg" ? 1 : Number(left.slice(8));
+              const rightOrder = right === "introImg" ? 1 : Number(right.slice(8));
+              return leftOrder - rightOrder;
+            })
+            .map((key) => jakt[key]);
           return (
             <Skattjakt
               questions={questions}
               skattjaktName={jakt.name || ""}
               introImg={jakt.introImg || ""}
+              introImages={introImages}
               finishImg={jakt.finishImg || ""}
               goHome={() => setPage("home")}
             />
