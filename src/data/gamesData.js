@@ -421,7 +421,7 @@ export const skattjakter = [
         img: "/skattjakt/trollskogen/blasten.jpg",
         img2: "/skattjakt/trollskogen/aldrerod.jpg",
         prompt: "Aktivera röda stenen!",
-        answer: ["14", "FJORTON"],
+        answer: ["14", "FJORTON", "47", "42"],
         hint: "Räkna bären på de 2 buskarna med flest bär."
       },
       {
@@ -439,7 +439,7 @@ export const skattjakter = [
         img: "/skattjakt/trollskogen/gronsten.jpg",
         img2: "/skattjakt/trollskogen/aldrelila.jpg",
         prompt: "Aktivera lila stenen!",
-        answer: ["bi"],
+        answer: ["bi", "bin"],
         hint: "Räkna de små, flygande djuren. Inte humlor men..."
       },
       {
