@@ -297,7 +297,7 @@ export const skattjakter = [
   },
   {
     id: 7,
-    name: "TROLLSKOGENS HEMLIGHET (Yngre barn) - kommer snart!",
+    name: "TROLLSKOGENS HEMLIGHET - Yngre barn ",
     introImg: "/skattjakt/trollskogen/introtrollskogen.jpg",
     introImg2: "/skattjakt/trollskogen/introtrollskogen1.jpg",
     finishImg: "/skattjakt/trollskogen/allastenar.jpg",
@@ -388,7 +388,7 @@ export const skattjakter = [
   },
   {
     id: 8,
-    name: "TROLLSKOGENS HEMLIGHET (Äldre barn) - kommer snart!",
+    name: "TROLLSKOGENS HEMLIGHET - Äldre barn",
     introImg: "/skattjakt/trollskogen/introtrollskogen.jpg",
     introImg2: "/skattjakt/trollskogen/introtrollskogen1.jpg",
     finishImg: "/skattjakt/trollskogen/allastenar.jpg",
@@ -462,6 +462,7 @@ export const skattjakter = [
         type: "letters",
         img: "/skattjakt/trollskogen/rosasten.jpg",
         img2: "/skattjakt/trollskogen/aldreguld.jpg",
+        img3: "/skattjakt/trollskogen/saknadbild.jpg",
         prompt: "Aktivera guldiga stenen!",
         answer: ["solfågel", "fågelsol", "solochfågel", "fågelochsol"],
         hint: "Skriv de två orden utan mellanrum."
