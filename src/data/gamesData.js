@@ -710,7 +710,7 @@ export const escapeGames = [
     win: "Vi lyckades ta oss ut ur källaren och till säkerhet. Imponerande!" ,
     rooms: [
        { id: 1, name: "Kylskåpet", img: "/escape/escapethebasement/kylskapet.jpg", "type": "letters", "answer": "VEHKG", instruction: "Bra jobbat! Ta ledtråd 13" },
-       { id: 2, name: "Bokhyllan*", img: "/escape/escapethebasement/bokhyllan2.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "star", "heart", "triangle", "rectangle", "cloud"], "answerSequence": ["trianlge", "hexagon", "square", "circle"], instruction: "Bra jobbat! Ta ledtråd 9" },
+       { id: 2, name: "Bokhyllan*", img: "/escape/escapethebasement/bokhyllan2.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "star", "triangle", "rectangle", "hexagon"], "answerSequence": ["triangle", "hexagon", "square", "circle"], instruction: "Bra jobbat! Ta ledtråd 9" },
        { id: 3, name: "TV:n", img: "/escape/escapethebasement/tvn.jpg", "type": "letters", "answer": "AAHCGL", instruction: "Bra jobbat! Ta ledtråd 12" },
        { id: 4, name: "Resväskan*", img: "/escape/escapethebasement/resvaskan2.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "triangle", "star", "hexagon", "rectangle"], "answerSequence": ["hexagon", "star", "circle", "triangle", "square"], instruction: "Bra jobbat! Ta ledtråd 5" },
        { id: 5, name: "Smyckesskrinet", img: "/escape/escapethebasement/smyckesskrinet.jpg", "type": "number", "answer": "834265", instruction: "Bra jobbat! Ta sedan ledtråd 11" },
