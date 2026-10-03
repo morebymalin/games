@@ -720,7 +720,7 @@ export const escapeGames = [
        { id: 9, name: "Dagboken", img: "/escape/escapethebasement/dagboken.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "star", "heart", "triangle", "rectangle"], "answerSequence": ["circle", "triangle", "hexagon"], instruction: "Bra jobbat! Ta ledtråd 3 och 4"  },
        { id: 10, name: "Skrivbordet", img: "/escape/escapethebasement/skrivbordet.jpg", "type": "number", "answer": "153", instruction: "Bra jobbat! Ta ledtråd 6" },
        { id: 11, name: "Arbetsbänken", img: "/escape/escapethebasement/arbetsbanken.jpg", "type": "letters", "answer": "C8N3L6", instruction: "Bra jobbat! Ta ledtråd 8" },
-       { id: 12, name: "Biljardbordet", img: "/escape/escapethebasement/biljardbordet.jpg", "type": "letters", "answer": "OLÅST", instruction: "Bra jobbat! Ta ledtråd 10" }
+       { id: 12, name: "Biljardbordet", img: "/escape/escapethebasement/biljardbordet.jpg", "type": "letters", "answer": "OLÅST", instruction: "Bra jobbat! Ta ledtråd 10" },
     ]
    },
 
