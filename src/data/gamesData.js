@@ -295,7 +295,7 @@ export const skattjakter = [
         prompt: "Lös rebusen!",
         answer: "GRÄSKLIPPAREN",
         hint: "Lista ut vad bilderna visar, ta bort de bokstäver som står och lägg ihop resten till ett ord."
-      },
+      }
     ]
   },
   {
@@ -386,7 +386,7 @@ export const skattjakter = [
         prompt: "Aktivera guldiga stenen!",
         answer: ["ekorre", "ekore"],
         hint: "Vilket djur sitter i trädet?"
-      },
+      }
     ]
   },
   {
@@ -469,7 +469,7 @@ export const skattjakter = [
         prompt: "Aktivera guldiga stenen!",
         answer: ["solfågel", "fågelsol", "solochfågel", "fågelochsol"],
         hint: "Skriv de två orden utan mellanrum."
-      },
+      }
     ]
   },
 
@@ -645,7 +645,7 @@ export const escapeGames = [
     rooms: [
       { id: 1, name: "Badkaret", img: "/escape/escapethebathroom/testbadkar.jpg", type: "colors", allowedColors: ["orange", "green", "blue", "red", "pink", "purple"], answerSequence: ["pink", "purple", "orange", "green"], instruction: "Ta ledtråd 3" },
       { id: 2, name: "Dörren ut", img: "/escape/escapethebathroom/testdorrenut.jpg", type: "number", answer: "56973" },
-      { id: 3, name: "Toaletten", img: "/escape/escapethebathroom/testtoalett.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "triangle", "rectangle"], answerSequence: ["circle", "star", "square"], instruction: "Ta ledtråd 2" },
+      { id: 3, name: "Toaletten", img: "/escape/escapethebathroom/testtoalett.jpg", type: "symbols", allowedSymbols: ["circle", "square", "star", "heart", "triangle", "rectangle"], answerSequence: ["circle", "star", "square"], instruction: "Ta ledtråd 2" }
     ]
   },
 
@@ -664,7 +664,7 @@ export const escapeGames = [
        { id: 8, name: "Vikingaskeppet", img: "/escape/sverigeshistoria/vikingaskeppet.jpg", "type": "colors", "allowedColors": ["blue", "grey", "yellow", "red", "pink", "purple", "green", "black"], "answerSequence": ["green", "purple", "red", "yellow", "grey", "black"], instruction: "Bra jobbat! Läs berättelsekort 1 och ta sedan ledtråd 2" },
        { id: 9, name: "Skolan", img: "/escape/sverigeshistoria/skolan.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "cross", "heart", "triangle", "rectangle"], "answerSequence": ["square", "triangle", "circle",  "rectangle", "cross"], },
        { id: 10, name: "Slottsmötet", img: "/escape/sverigeshistoria/slottsmotet.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "pink", "blue"], "answerSequence": ["blue", "red", "yellow"], instruction: "Bra jobbat! Läs berättelsekort 7 och ta sedan ledtråd 8" },
-       { id: 11, name: "Husen", img: "/escape/sverigeshistoria/husen.jpg", "type": "letters", "answer": "DTLLOJ", instruction: "Bra jobbat! Läs berättelsekort 10 och ta sedan ledtråd 11" },
+       { id: 11, name: "Husen", img: "/escape/sverigeshistoria/husen.jpg", "type": "letters", "answer": "DTLLOJ", instruction: "Bra jobbat! Läs berättelsekort 10 och ta sedan ledtråd 11" }
      ]
    },
   
@@ -683,7 +683,7 @@ export const escapeGames = [
        { id: 8, name: "Bibliotek", img: "/escape/hittapaskharen/bibliotek.jpg", "type": "colors", "allowedColors": ["blue", "grey", "yellow", "red", "pink", "purple", "green", "orange"], "answerSequence": ["green", "purple", "orange"], instruction: "Bra jobbat! Ta ledtråd 7" },
        { id: 9, name: "Hotell", img: "/escape/hittapaskharen/hotell.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "cross", "heart", "triangle", "rectangle"], "answerSequence": ["triangle", "square", "circle", "cross"], instruction: "Bra jobbat! Ta ledtråd 10"  },
        { id: 10, name: "Sjukhus", img: "/escape/hittapaskharen/sjukhus.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "pink", "blue"], "answerSequence": ["yellow", "blue", "green", "orange", "red"], instruction: "Bra jobbat! Ta ledtråd 5" },
-       { id: 11, name: "Lägenheter", img: "/escape/hittapaskharen/lagenhet.jpg", "type": "letters", "answer": "TSBG", instruction: "Bra jobbat! Ta ledtråd 8" },
+       { id: 11, name: "Lägenheter", img: "/escape/hittapaskharen/lagenhet.jpg", "type": "letters", "answer": "TSBG", instruction: "Bra jobbat! Ta ledtråd 8" }
      ]
    },
   
@@ -720,7 +720,7 @@ export const escapeGames = [
       { id: 6, name: "Garderoben", img: "/escape/lagenheten/garderoben.jpg", type: "number", answer: "90090", instruction: "Bra jobbat!" },
       { id: 7, name: "TV:n", img: "/escape/lagenheten/tvn.jpg", type: "colors", allowedColors: ["yellow", "green", "orange", "red", "pink", "purple"], answerSequence: ["pink", "green", "orange", "purple"] },
       { id: 8, name: "Skrivbordet", img: "/escape/lagenheten/skrivbordet.jpg", type: "number", answer: "8431" },
-      { id: 9, name: "Fönstret", img: "/escape/lagenheten/fonstret.jpg", type: "colors", allowedColors: ["yellow", "brown", "blue", "red", "pink", "purple"], answerSequence: ["blue", "yellow", "red", "pink", "brown"] },
+      { id: 9, name: "Fönstret", img: "/escape/lagenheten/fonstret.jpg", type: "colors", allowedColors: ["yellow", "brown", "blue", "red", "pink", "purple"], answerSequence: ["blue", "yellow", "red", "pink", "brown"] }
       { id: 10, name: "Halldörren", img: "/escape/lagenheten/halldorren.jpg", type: "letters", answer: "DENOFI" }
     ]
   },
