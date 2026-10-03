@@ -704,7 +704,8 @@ export const escapeGames = [
        { id: 11, name: "Lägenheter", img: "/escape/hittapaskharen/lagenhet.jpg", "type": "letters", "answer": "TSBG", instruction: "Bra jobbat! Ta ledtråd 8" },
      ]
    },
-  {
+  
+   {
     id: 13,
     name: "Escape the basement",
     win: "Vi lyckades ta oss ut ur källaren och till säkerhet. Imponerande!" ,
