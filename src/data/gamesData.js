@@ -686,7 +686,26 @@ export const escapeGames = [
        { id: 11, name: "Lägenheter", img: "/escape/hittapaskharen/lagenhet.jpg", "type": "letters", "answer": "TSBG", instruction: "Bra jobbat! Ta ledtråd 8" }
      ]
    },
-  
+
+  {
+    id: 14,
+    name: "Escape the basement",
+    win: "Vi lyckades ta oss ut ur källaren och till säkerhet. Imponerande!" ,
+    rooms: [
+       { id: 1, name: "Kylskåpet", img: "/escape/escapethebasement/kylskapet.jpg", "type": "letters", "answer": "VEHKG", instruction: "Bra jobbat! Ta ledtråd 13" },
+       { id: 2, name: "Bokhyllan*", img: "/escape/escapethebasement/bokhyllan2.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "star", "triangle", "rectangle", "hexagon"], "answerSequence": ["triangle", "hexagon", "square", "circle"], instruction: "Bra jobbat! Ta ledtråd 9" },
+       { id: 3, name: "TV:n", img: "/escape/escapethebasement/tvn1.jpg", "type": "letters", "answer": "AAHCGL", instruction: "Bra jobbat! Ta ledtråd 12" },
+       { id: 4, name: "Resväskan*", img: "/escape/escapethebasement/resvaskan2.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "triangle", "star", "hexagon", "rectangle"], "answerSequence": ["hexagon", "star", "circle", "triangle", "square"], instruction: "Bra jobbat! Ta ledtråd 5" },
+       { id: 5, name: "Smyckesskrinet*", img: "/escape/escapethebasement/smyckesskrinet.jpg", "type": "number", "answer": "834265", instruction: "Bra jobbat! Ta sedan ledtråd 11" },
+       { id: 6, name: "Dörren ut*", img: "/escape/escapethebasement/dorrenut.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "purple", "white"], "answerSequence": ["purple", "yellow", "orange", "green", "red", "white"], instruction: "Bra jobbat! },
+       { id: 7, name: "Ljusbrunt skåp*", img: "/escape/escapethebasement/ljusbruntskap.jpg", "type": "number", "answer": "53492", instruction: "Bra jobbat! Ta ledtråd 2" },
+       { id: 8, name: "Mörkbrunt skåp*", img: "/escape/escapethebasement/morkbruntskap.jpg", "type": "number", "answer": "7865", instruction: "Bra jobbat! Ta ledtråd 7" },
+       { id: 9, name: "Dagboken", img: "/escape/escapethebasement/dagboken.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "star", "heart", "triangle", "rectangle"], "answerSequence": ["circle", "triangle", "hexagon"], instruction: "Bra jobbat! Ta ledtråd 3 och 4"  },
+       { id: 10, name: "Skrivbordet", img: "/escape/escapethebasement/skrivbordet.jpg", "type": "number", "answer": "153", instruction: "Bra jobbat! Ta ledtråd 6" },
+       { id: 11, name: "Arbetsbänken", img: "/escape/escapethebasement/arbetsbanken.jpg", "type": "letters", "answer": "C8N3L6", instruction: "Bra jobbat! Ta ledtråd 8" },
+       { id: 12, name: "Biljardbordet", img: "/escape/escapethebasement/biljardbordet.jpg", "type": "letters", "answer": "OLAST", instruction: "Bra jobbat! Ta ledtråd 10" }
+    ]
+  },
 
   {
     id: 13,
