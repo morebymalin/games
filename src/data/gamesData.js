@@ -690,6 +690,7 @@ export const escapeGames = [
    {
     id: 6,
     name: "Escape the basement",
+    category: "normal",
     win: "Vi lyckades ta oss ut ur källaren och till säkerhet. Imponerande!" ,
     rooms: [
        { id: 1, name: "Kylskåpet", img: "/escape/escapethebasement/kylskapet.jpg", "type": "letters", "answer": "VEHKG", instruction: "Bra jobbat! Ta ledtråd 13" },
