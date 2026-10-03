@@ -688,7 +688,7 @@ export const escapeGames = [
    },
   
    {
-    id: 6,
+    id: 14,
     name: "Escape the basement",
     win: "Vi lyckades ta oss ut ur källaren och till säkerhet. Imponerande!" ,
     rooms: [
