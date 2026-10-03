@@ -690,14 +690,13 @@ export const escapeGames = [
    {
     id: 6,
     name: "Escape the basement",
-    category: "normal",
     win: "Vi lyckades ta oss ut ur källaren och till säkerhet. Imponerande!" ,
     rooms: [
        { id: 1, name: "Kylskåpet", img: "/escape/escapethebasement/kylskapet.jpg", "type": "letters", "answer": "VEHKG", instruction: "Bra jobbat! Ta ledtråd 13" },
        { id: 2, name: "Bokhyllan*", img: "/escape/escapethebasement/bokhyllan2.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "star", "triangle", "rectangle", "hexagon"], "answerSequence": ["triangle", "hexagon", "square", "circle"], instruction: "Bra jobbat! Ta ledtråd 9" },
        { id: 3, name: "TV:n", img: "/escape/escapethebasement/tvn.jpg", "type": "letters", "answer": "AAHCGL", instruction: "Bra jobbat! Ta ledtråd 12" },
        { id: 4, name: "Resväskan*", img: "/escape/escapethebasement/resvaskan2.jpg", "type": "symbols", "allowedSymbols": ["circle", "square", "triangle", "star", "hexagon", "rectangle"], "answerSequence": ["hexagon", "star", "circle", "triangle", "square"], instruction: "Bra jobbat! Ta ledtråd 5" },
-       { id: 5, name: "Smyckesskrinet", img: "/escape/escapethebasement/smyckesskrinet.jpg", "type": "number", "answer": "834265", instruction: "Bra jobbat! Ta sedan ledtråd 11" },
+       { id: 5, name: "Smyckesskrinet*", img: "/escape/escapethebasement/smyckesskrinet.jpg", "type": "number", "answer": "834265", instruction: "Bra jobbat! Ta sedan ledtråd 11" },
        { id: 6, name: "Dörren ut*", img: "/escape/escapethebasement/dorrenut.jpg", "type": "colors", "allowedColors": ["yellow", "green", "orange", "red", "purple", "white"], "answerSequence": ["purple", "yellow", "orange", "green", "red", "white"], instruction: "Bra jobbat! },
        { id: 7, name: "Ljusbrunt skåp*", img: "/escape/escapethebasement/ljusbruntskap.jpg", "type": "number", "answer": "53492", instruction: "Bra jobbat! Ta ledtråd 2" },
        { id: 8, name: "Mörkbrunt skåp*", img: "/escape/escapethebasement/morkbruntskap.jpg", "type": "number", "answer": "7865", instruction: "Bra jobbat! Ta ledtråd 7" },
